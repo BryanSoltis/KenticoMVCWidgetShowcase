@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.attachment>
+  <AttachmentDocumentID>
+    <CodeName>en-US</CodeName>
+    <GUID>cfae9bf5-c8f8-4c19-b263-71a7c4c26ad1</GUID>
+    <ObjectType>cms.documentlocalization</ObjectType>
+    <Parent>
+      <CodeName>/Home</CodeName>
+      <GUID>c365ee7f-b50a-4c01-a183-7dd76f68303e</GUID>
+      <ObjectType>cms.node</ObjectType>
+      <Site>
+        <CodeName>KenticoMVCWidgetShowcase</CodeName>
+        <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </Site>
+    </Parent>
+  </AttachmentDocumentID>
+  <AttachmentExtension>.jpg</AttachmentExtension>
+  <AttachmentGUID>a1ce5a8f-69d1-4678-907b-cbb29a70cb44</AttachmentGUID>
+  <AttachmentImageHeight>768</AttachmentImageHeight>
+  <AttachmentImageWidth>1024</AttachmentImageWidth>
+  <AttachmentIsUnsorted>True</AttachmentIsUnsorted>
+  <AttachmentMimeType>image/jpeg</AttachmentMimeType>
+  <AttachmentName>Jellyfish.jpg</AttachmentName>
+  <AttachmentSiteID>
+    <CodeName>KenticoMVCWidgetShowcase</CodeName>
+    <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </AttachmentSiteID>
+  <AttachmentSize>775702</AttachmentSize>
+</cms.attachment>

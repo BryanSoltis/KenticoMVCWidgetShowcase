@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>KenticoMVCWidgetShowcase</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>Content Page</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="ContentPageID" columntype="integer" guid="efb10f84-b7d4-4f22-84d5-66c3c8ed2c2d" isPK="true" publicfield="false">
+        <properties>
+          <fieldcaption>ContentPageID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="ContentPageName" columnsize="200" columntype="text" guid="f9a88aaf-e502-4f98-8b65-06f033773656" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Content Page Name</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>abe845cc-c655-4776-bbe7-0f81c7d4e5f5</ClassGUID>
+  <ClassIconClass>icon-doc-o</ClassIconClass>
+  <ClassInheritsFromClassID>0</ClassInheritsFromClassID>
+  <ClassIsContentOnly>True</ClassIsContentOnly>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassName>KenticoMVCWidgetShowcase.ContentPage</ClassName>
+  <ClassNodeNameSource>ContentPageName</ClassNodeNameSource>
+  <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="3c0367dc-6be3-4919-a1ae-37b3375066f2" name="ContentPageID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="8ce30ec3-7bf5-43b5-a835-f734c494c507" name="ContentPageName" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>KenticoMVCWidgetShowcase_ContentPage</ClassTableName>
+  <ClassURLPattern>/{%NodeAlias%}</ClassURLPattern>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

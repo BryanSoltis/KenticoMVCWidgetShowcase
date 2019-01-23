@@ -2,7 +2,12 @@
 <cms.usersettings>
   <UserAccountLockReason>0</UserAccountLockReason>
   <UserActivationDate>2019-01-16 20:45:41Z</UserActivationDate>
-  <UserDialogsConfiguration />
+  <UserDialogsConfiguration>
+    <Data>
+      <attachments.viewmode>list</attachments.viewmode>
+      <selectedtab>docattachments</selectedtab>
+    </Data>
+  </UserDialogsConfiguration>
   <UserFacebookID />
   <UserInvalidLogOnAttempts>0</UserInvalidLogOnAttempts>
   <UserLogActivities>False</UserLogActivities>

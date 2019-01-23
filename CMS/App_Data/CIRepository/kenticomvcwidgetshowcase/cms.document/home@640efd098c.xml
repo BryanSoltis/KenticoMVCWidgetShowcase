@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for /Home -->
+<cms.node>
+  <NodeACLID>
+    <GUID>0072d163-58b7-495f-bbcd-1f15eaadf7e3</GUID>
+    <ObjectType>cms.acl</ObjectType>
+    <Site>
+      <CodeName>KenticoMVCWidgetShowcase</CodeName>
+      <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NodeACLID>
+  <NodeAlias>Home</NodeAlias>
+  <NodeClassID>
+    <CodeName>KenticoMVCWidgetShowcase.HomePage</CodeName>
+    <GUID>494e18c2-3827-4bca-9fa6-b86294b66253</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </NodeClassID>
+  <NodeGUID>c365ee7f-b50a-4c01-a183-7dd76f68303e</NodeGUID>
+  <NodeInheritPageLevels>/</NodeInheritPageLevels>
+  <NodeInheritPageTemplate>False</NodeInheritPageTemplate>
+  <NodeIsACLOwner>False</NodeIsACLOwner>
+  <NodeIsContentOnly>True</NodeIsContentOnly>
+  <NodeName>Home</NodeName>
+  <NodeOrder>1</NodeOrder>
+  <NodeOwner>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </NodeOwner>
+  <NodeParentID>
+    <CodeName>/</CodeName>
+    <GUID>acdd2058-bde0-4c9d-8332-45f417220571</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>KenticoMVCWidgetShowcase</CodeName>
+      <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </NodeParentID>
+  <NodeSiteID>
+    <CodeName>KenticoMVCWidgetShowcase</CodeName>
+    <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </NodeSiteID>
+  <NodeTemplateForAllCultures>True</NodeTemplateForAllCultures>
+</cms.node>

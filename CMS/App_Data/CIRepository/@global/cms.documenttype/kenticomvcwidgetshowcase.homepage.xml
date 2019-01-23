@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>KenticoMVCWidgetShowcase</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>Home Page</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="HomePageID" columntype="integer" guid="217004d7-0e41-4281-8aaf-a55ef48c57e5" isPK="true" publicfield="false">
+        <properties>
+          <fieldcaption>HomePageID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="ContentPageName" columnsize="200" columntype="text" guid="f9a88aaf-e502-4f98-8b65-06f033773656" isinherited="true" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Content Page Name</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="HeaderText" columnsize="200" columntype="text" guid="5662e7c2-3e7f-4ebe-b28e-9fdcef11edc7" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Header Text</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="HeaderImage" columnsize="200" columntype="text" guid="b7130eed-3057-48f0-b6d7-917f8f12b0a0" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Header Image</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>MediaSelectionControl</controlname>
+          <ShowPreview>True</ShowPreview>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>494e18c2-3827-4bca-9fa6-b86294b66253</ClassGUID>
+  <ClassIconClass>icon-home</ClassIconClass>
+  <ClassInheritsFromClassID>
+    <CodeName>KenticoMVCWidgetShowcase.ContentPage</CodeName>
+    <GUID>abe845cc-c655-4776-bbe7-0f81c7d4e5f5</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </ClassInheritsFromClassID>
+  <ClassIsContentOnly>True</ClassIsContentOnly>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassName>KenticoMVCWidgetShowcase.HomePage</ClassName>
+  <ClassNodeNameSource>ContentPageName</ClassNodeNameSource>
+  <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="0fd2cc1a-46dd-4857-b9fa-b5c7d3e2be10" name="ContentPageName" searchable="False" tokenized="True" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="356b5642-46fe-4d35-812d-a44985bf0733" name="HeaderText" searchable="False" tokenized="True" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="61fc390b-bc7e-471e-832d-4268e2d84d84" name="HeaderImage" searchable="False" tokenized="True" />
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="b2cdad06-3fde-4656-9770-d9cdd176f077" name="HomePageID" searchable="True" tokenized="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>KenticoMVCWidgetShowcase_HomePage</ClassTableName>
+  <ClassURLPattern>/{%NodeAlias%}</ClassURLPattern>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

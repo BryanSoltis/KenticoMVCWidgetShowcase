@@ -330,6 +330,8 @@
     <Content Include="App_Data\CIRepository\%40global\badwords.word\slut%408bed2d99bd.xml" />
     <Content Include="App_Data\CIRepository\%40global\badwords.word\tits%40c21047bf8c.xml" />
     <Content Include="App_Data\CIRepository\%40global\badwords.word\twat%401c17c8b75f.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.allowedchildclass\kenticomvcwidgetshowcase.contentpage%4093e20bf450.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.allowedchildclass\kenticomvcwidgetshowcase.homepage%40e5c3052828.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.class_cms.category\personal.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.class_cms.class\customtable.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.class_cms.class\documenttype.xml" />
@@ -520,8 +522,26 @@
     <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_cms.root\modify.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_cms.root\modifypermissions.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_cms.root\read.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..owcase.contentpage%4093e20bf450\create.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..owcase.contentpage%4093e20bf450\createspecific.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..owcase.contentpage%4093e20bf450\delete.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..owcase.contentpage%4093e20bf450\destroy.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..owcase.contentpage%4093e20bf450\exploretree.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..owcase.contentpage%4093e20bf450\modify.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..owcase.contentpage%4093e20bf450\modifypermissions.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..owcase.contentpage%4093e20bf450\read.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_kenticomvcwidgetshowcase.homepage\create.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_kenticomvcwidgetshowcase.homepage\createspecific.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_kenticomvcwidgetshowcase.homepage\delete.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_kenticomvcwidgetshowcase.homepage\destroy.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_kenticomvcwidgetshowcase.homepage\exploretree.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_kenticomvcwidgetshowcase.homepage\modify.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_kenticomvcwidgetshowcase.homepage\modifypermissions.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_kenticomvcwidgetshowcase.homepage\read.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.classsite\cms.file%40f9fc19aaf2.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.classsite\cms.root%401f94d692e8.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classsite\kenticomvcwidgetshowcase.contentpage%4093e20bf450.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classsite\kenticomvcwidgetshowcase.homepage%40e5c3052828.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.class\analytics.campaign.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.class\analytics.campaignasset.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.class\analytics.campaignasseturl.xml" />
@@ -1211,6 +1231,8 @@
     <Content Include="App_Data\CIRepository\%40global\cms.documenttype\chat.transformations.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.documenttype\cms.file.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.documenttype\cms.root.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.documenttype\kenticomvcwidgetshowcase.contentpage.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.documenttype\kenticomvcwidgetshowcase.homepage.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.emailtemplate\blog.newcommentnotification.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.emailtemplate\blog.notificationtomoderators.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.emailtemplate\blog.notificationtosubcribers.xml" />
@@ -6891,8 +6913,13 @@
     <Content Include="App_Data\CIRepository\%40global\reporting.report\visitors.weekreport.xml" />
     <Content Include="App_Data\CIRepository\%40global\reporting.report\visitors.yearreport.xml" />
     <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.acl\0072d163-58b7-495f-bbcd-1f15eaadf7e3.xml" />
+    <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.attachment\home_en-us%40cbb5b876f1\jellyfish.jpg%400987ad8e44#file.jpg" />
+    <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.attachment\home_en-us%40cbb5b876f1\jellyfish.jpg%400987ad8e44.xml" />
     <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.document\%40c73288cb81#en-us\document.xml" />
     <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.document\%40c73288cb81.xml" />
+    <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.document\home%40640efd098c#en-us\document.xml" />
+    <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.document\home%40640efd098c#en-us\fields.xml" />
+    <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.document\home%40640efd098c.xml" />
     <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.scheduledtask\content.publish.xml" />
     <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.scheduledtask\ecommerce.deleteoldshoppingcarts.xml" />
     <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.scheduledtask\newsletter.checkbounces.xml" />
@@ -26539,6 +26566,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Old_App_Code\CMSClasses\Pages\KenticoMVCWidgetShowcase\ContentPage.generated.cs" />
+    <Compile Include="Old_App_Code\CMSClasses\Pages\KenticoMVCWidgetShowcase\ContentPageProvider.generated.cs" />
+    <Compile Include="Old_App_Code\CMSClasses\Pages\KenticoMVCWidgetShowcase\HomePage.generated.cs" />
+    <Compile Include="Old_App_Code\CMSClasses\Pages\KenticoMVCWidgetShowcase\HomePageProvider.generated.cs" />
     <Compile Include="Old_App_Code\CMSModules\Automation\AutomationFunctions.cs" />
     <Compile Include="Old_App_Code\CMSModules\Badges\BadgesListControlExtender.cs" />
     <Compile Include="Old_App_Code\CMSModules\BadWords\BadWordsListControlExtender.cs" />

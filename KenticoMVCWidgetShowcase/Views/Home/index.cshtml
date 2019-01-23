@@ -1,0 +1,13 @@
+﻿@model CMS.DocumentEngine.Types.KenticoMVCWidgetShowcase.HomePage
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+@if (Model.HeaderImage.ToString() != "")
+{
+    string headerimageurl = Url.Kentico().ImageUrl(Model.HeaderImage, SizeConstraint.MaxWidthOrHeight(400));
+    <img src="@headerimageurl" alt="@Model.HeaderText" />
+}
+
+<h2>@Model.HeaderText</h2>
