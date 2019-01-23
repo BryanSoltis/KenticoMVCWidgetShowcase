@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.uielement>
+  <ElementCaption>{$chat.chatroom.new$}</ElementCaption>
+  <ElementCheckModuleReadPermission>True</ElementCheckModuleReadPermission>
+  <ElementDisplayName>{$chat.chatroom.new$}</ElementDisplayName>
+  <ElementFromVersion>7.0</ElementFromVersion>
+  <ElementGUID>fcd0f9bf-4a5d-4c2d-9061-14d79ea13b62</ElementGUID>
+  <ElementIconClass />
+  <ElementIsCustom>False</ElementIsCustom>
+  <ElementIsGlobalApplication>False</ElementIsGlobalApplication>
+  <ElementIsMenu>False</ElementIsMenu>
+  <ElementName>Chat.CreateNewRoom</ElementName>
+  <ElementOrder>3</ElementOrder>
+  <ElementParentID>
+    <CodeName>ChatRooms</CodeName>
+    <GUID>f488432d-17ff-4030-bfba-769b78dadbe9</GUID>
+    <ObjectType>cms.uielement</ObjectType>
+    <Parent>
+      <CodeName>CMS.Chat</CodeName>
+      <GUID>944e7882-1698-4e87-9036-5d8cd4f98592</GUID>
+      <ObjectType>cms.resource</ObjectType>
+    </Parent>
+  </ElementParentID>
+  <ElementProperties>
+    <data>
+      <category_name_custom>False</category_name_custom>
+      <includejquery>False</includejquery>
+      <displaybreadcrumbs>False</displaybreadcrumbs>
+    </data>
+  </ElementProperties>
+  <ElementRequiresGlobalAdminPriviligeLevel>False</ElementRequiresGlobalAdminPriviligeLevel>
+  <ElementResourceID>
+    <CodeName>CMS.Chat</CodeName>
+    <GUID>944e7882-1698-4e87-9036-5d8cd4f98592</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </ElementResourceID>
+  <ElementSize>1</ElementSize>
+  <ElementTargetURL>
+    <![CDATA[~/CMSModules/Chat/Pages/Tools/ChatRoom/New.aspx?siteID={%CurrentSite.SiteID|(identity)GlobalAdministrator|(hash)afe762c36d6f1f2f33f4ef54ef7ba858852e416f6e1d4f3b16fa039d3f3ac933%}]]>
+  </ElementTargetURL>
+  <ElementType>Url</ElementType>
+  <ElementVisibilityCondition>
+<![CDATA[
+{%CurrentUser.IsAuthorizedPerResource("CMS.Chat","GlobalModify")
+  || CurrentUser.IsAuthorizedPerResource("CMS.Chat","Modify")|(identity)GlobalAdministrator|(hash)2b70107a710423ad3b8c0eabea4e9f6aec5eae91bba35486ba620d5ae15125cd%}
+]]>
+  </ElementVisibilityCondition>
+</cms.uielement>

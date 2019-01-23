@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.classsite>
+  <Parent>
+    <CodeName>CMS.Root</CodeName>
+    <GUID>a585aea3-10b5-4b74-9aad-747fcce72493</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="KenticoMVCWidgetShowcase">
+      <SiteID>
+        <CodeName>KenticoMVCWidgetShowcase</CodeName>
+        <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.classsite>

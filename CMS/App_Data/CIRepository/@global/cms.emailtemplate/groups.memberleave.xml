@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.emailtemplate>
+  <EmailTemplateBcc />
+  <EmailTemplateCc />
+  <EmailTemplateDisplayName>Groups - Member leave</EmailTemplateDisplayName>
+  <EmailTemplateFrom />
+  <EmailTemplateGUID>85636277-a9a7-46ba-80f0-50e3fd30bc24</EmailTemplateGUID>
+  <EmailTemplateName>Groups.MemberLeave</EmailTemplateName>
+  <EmailTemplatePlainText>
+<![CDATA[
+User {%MemberUser.FullName|(identity)GlobalAdministrator|(hash)640442cff0a7bef2311c3c99a831965be6c000daaac758134b88b8a9b304df08%}({%TrimSitePrefix(MemberUser.UserName)|(identity)GlobalAdministrator|(hash)bc3c79b128c823d1ae67b57f8190b3f0e98f2a3f3fdf52e72f1a3aca043d2b2e%}) just left group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)ea878deeb438b30cbed367d4593a59931a550791a0e834dd8fa83f48b06dd38c%}'.
+
+
+Best Regards,
+
+The Community Team
+]]>
+  </EmailTemplatePlainText>
+  <EmailTemplateSubject />
+  <EmailTemplateText>
+<![CDATA[
+<html>
+	<head>
+	</head>
+	<body>
+		<p>User {%MemberUser.FullName|(identity)GlobalAdministrator|(hash)640442cff0a7bef2311c3c99a831965be6c000daaac758134b88b8a9b304df08%}({%TrimSitePrefix(MemberUser.UserName)|(identity)GlobalAdministrator|(hash)bc3c79b128c823d1ae67b57f8190b3f0e98f2a3f3fdf52e72f1a3aca043d2b2e%}) just left group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)ea878deeb438b30cbed367d4593a59931a550791a0e834dd8fa83f48b06dd38c%}'.</p>
+		<br />
+		<br />
+		Best Regards,<br />
+		<br />
+		The Community Team
+	</body>
+</html>
+]]>
+  </EmailTemplateText>
+  <EmailTemplateType>groupmember</EmailTemplateType>
+</cms.emailtemplate>

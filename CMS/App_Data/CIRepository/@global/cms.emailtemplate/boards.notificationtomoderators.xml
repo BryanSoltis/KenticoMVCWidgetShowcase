@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.emailtemplate>
+  <EmailTemplateBcc />
+  <EmailTemplateCc />
+  <EmailTemplateDisplayName>Boards - Notification to board moderators</EmailTemplateDisplayName>
+  <EmailTemplateFrom />
+  <EmailTemplateGUID>35a95893-ee26-449e-b257-edb134a67c44</EmailTemplateGUID>
+  <EmailTemplateName>Boards.NotificationToModerators</EmailTemplateName>
+  <EmailTemplatePlainText>
+<![CDATA[
+New message was added and now is waiting for your approval: 
+
+Board:   {%Board.BoardDsiplayName|(identity)GlobalAdministrator|(hash)e45b9c3a99b8626fdd9dd0a03c17da198c9b1d4900899bd1b1561ad1baed52e7%}
+Board URL:   {%DocumentLink%}
+Added by:   {%TrimSitePrefix(Message.MessageUserName)|(identity)GlobalAdministrator|(hash)612484ad3e037158038cee2d0f6ce0641e3de1cabd7fb6813dac005213c089d2%}  
+Date and time:   {%Message.MessageInserted|(identity)GlobalAdministrator|(hash)d18495ca0d2f3ec4483b6f387f24373845d4297898ec80341eef9128707f061c%}  
+Text:   {%Message.MessageText|(identity)GlobalAdministrator|(hash)8ddaf8bdc6165d2e860a340c7f55ec7bbc88cc12a372584aff57c98eb3e0e328%}
+
+]]>
+  </EmailTemplatePlainText>
+  <EmailTemplateSubject>
+    <![CDATA[Message needs to be approved in the board {%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)bc024c12270ff2063b3d055fa712b4612708d3bf9cb9a0d67e34d7f8bf540115%}]]>
+  </EmailTemplateSubject>
+  <EmailTemplateText>
+<![CDATA[
+<html>
+  <head>
+    <style>
+    body, td
+    {
+      font-size: 12px; 
+      font-family: Arial;
+    }
+    </style>
+  </head>  
+  <body>
+  <p>
+    New message was added and now is waiting for your approval:
+  </p>
+  <table>
+    <tr valign="top">
+    <td>
+    <strong>Board:&nbsp;</strong>
+    </td>
+    <td>
+    <a href="{%DocumentLink%}">{%Board.BoardDisplayName|(identity)GlobalAdministrator|(hash)bc024c12270ff2063b3d055fa712b4612708d3bf9cb9a0d67e34d7f8bf540115%}</a>
+    </td>
+    </tr>
+    <tr valign="top">
+    <td>
+    <strong>Added by:&nbsp;</strong>
+    </td>
+    <td>
+    {%TrimSitePrefix(Message.MessageUserName)|(identity)GlobalAdministrator|(hash)612484ad3e037158038cee2d0f6ce0641e3de1cabd7fb6813dac005213c089d2%}
+    </td>
+    </tr>
+    <tr valign="top">
+    <td>
+    <strong>Date and time:&nbsp;</strong>
+    </td>
+    <td>
+    {%Message.MessageInserted|(identity)GlobalAdministrator|(hash)d18495ca0d2f3ec4483b6f387f24373845d4297898ec80341eef9128707f061c%}
+    </td>
+    </tr>
+    <tr valign="top">
+    <td>
+    <strong>Text:&nbsp;</strong>
+    </td>
+    <td>
+    {%Message.MessageText|(identity)GlobalAdministrator|(hash)8ddaf8bdc6165d2e860a340c7f55ec7bbc88cc12a372584aff57c98eb3e0e328%}
+    </td>
+    </tr>
+  </table>    
+  </body>
+</html>
+]]>
+  </EmailTemplateText>
+  <EmailTemplateType>boards</EmailTemplateType>
+</cms.emailtemplate>

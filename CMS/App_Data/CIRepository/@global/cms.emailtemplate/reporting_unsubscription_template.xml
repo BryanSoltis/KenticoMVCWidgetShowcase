@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.emailtemplate>
+  <EmailTemplateBcc />
+  <EmailTemplateCc />
+  <EmailTemplateDisplayName>Reporting - Unsubscription confirmation</EmailTemplateDisplayName>
+  <EmailTemplateFrom />
+  <EmailTemplateGUID>5422657c-2602-4f80-a12f-858012baf4b9</EmailTemplateGUID>
+  <EmailTemplateName>Reporting_Unsubscription_template</EmailTemplateName>
+  <EmailTemplatePlainText>
+<![CDATA[
+{%ReportSubscription.ReportSubscriptionSubject|(identity)GlobalAdministrator|(hash)5d3aa0bd3215f12f55effa496386985ba1c42c33d9c9061522bd525bf82eb33f%}
+
+You have been successfully unsubscribed from {%ItemName%} report {%Report.ReportDisplayName|(identity)GlobalAdministrator|(hash)a04dcdadd4a91cefbd7efb8ff2d9d6b257c6d93202f0920e2169693ecc44fa12%}.
+]]>
+  </EmailTemplatePlainText>
+  <EmailTemplateSubject>Report unsubscription</EmailTemplateSubject>
+  <EmailTemplateText>
+<![CDATA[
+<html>
+	<head>
+	  <style>
+		BODY, TD
+		{
+		  font-size: 12px; 
+		  font-family: arial
+		}
+	  </style>
+	</head>	
+	<body>
+	<p>
+      <h3>{%ReportSubscription.ReportSubscriptionSubject|(identity)GlobalAdministrator|(hash)5d3aa0bd3215f12f55effa496386985ba1c42c33d9c9061522bd525bf82eb33f%}</h3>
+      
+	  You have been successfully unsubscribed from {%ItemName%}		
+	report <strong>{%Report.ReportDisplayName|(identity)GlobalAdministrator|(hash)a04dcdadd4a91cefbd7efb8ff2d9d6b257c6d93202f0920e2169693ecc44fa12%}</strong>.
+	<p/>	
+	</body>
+</html>
+]]>
+  </EmailTemplateText>
+  <EmailTemplateType>reporting</EmailTemplateType>
+</cms.emailtemplate>

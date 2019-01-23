@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.resourcesite>
+  <Parent>
+    <CodeName>CMS.Staging</CodeName>
+    <GUID>b1640241-8905-4845-ac9a-0301cb60cb63</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="KenticoMVCWidgetShowcase">
+      <SiteID>
+        <CodeName>KenticoMVCWidgetShowcase</CodeName>
+        <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.resourcesite>

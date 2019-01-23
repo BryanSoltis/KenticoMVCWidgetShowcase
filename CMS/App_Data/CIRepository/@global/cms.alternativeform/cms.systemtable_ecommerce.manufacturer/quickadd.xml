@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.alternativeform>
+  <FormClassID>
+    <CodeName>ecommerce.manufacturer</CodeName>
+    <GUID>dcbcbc29-fa72-404c-bcaf-7eea0dac144e</GUID>
+    <ObjectType>cms.systemtable</ObjectType>
+  </FormClassID>
+  <FormCustomizedColumns />
+  <FormDefinition>
+    <form>
+      <field column="ManufacturerThumbnailGUID" order="5" />
+      <field column="ManufacturerSiteID" visible="true" visibility="" order="6">
+        <settings>
+          <Options>
+<![CDATA[
+{%SiteContext.CurrentSiteID|(identity)GlobalAdministrator|(hash)76584066ccaab0a14f6515ad1d48a56bee9bb7614e801dc4f6d4888ed7b4f298%};{$com.onthissiteonly$}
+;{$com.globally$}
+]]>
+          </Options>
+          <SortItems>False</SortItems>
+          <EditText>False</EditText>
+          <controlname>dropdownlistcontrol</controlname>
+        </settings>
+        <properties>
+          <visiblemacro>
+            <![CDATA[{%Settings.CMSStoreAllowGlobalManufacturers && CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceGlobalModify") && (CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ModifyManufacturers") || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceModify"))|(identity)GlobalAdministrator|(hash)15a0d398b3e709772c972bdf7c1d9268a8920d7a6aa8a9065019a5c8287ebcff%}]]>
+          </visiblemacro>
+          <defaultvalue ismacro="true">
+<![CDATA[
+{% if (!Settings.CMSStoreAllowGlobalManufacturers
+    || !CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceGlobalModify")
+    || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","ModifyManufacturers")
+    || CurrentUser.IsAuthorizedPerResource("CMS.Ecommerce","EcommerceModify")) {SiteContext.CurrentSiteID} |(identity)GlobalAdministrator|(hash)63c229faf23fcef93d7dd5405c3639a821b4b281c60c0be43ed56a1eaee7c0d4%}
+]]>
+          </defaultvalue>
+          <fieldcaption>{$com.available$}</fieldcaption>
+        </properties>
+      </field>
+      <field column="ManufacturerLastModified" order="7" />
+      <field column="ManufacturerEnabled" visible="" visibility="">
+        <settings>
+          <controlname />
+        </settings>
+        <properties>
+          <fieldcaption />
+        </properties>
+      </field>
+    </form>
+  </FormDefinition>
+  <FormDisplayName>Quick add</FormDisplayName>
+  <FormGUID>2e2bdff0-75cf-46b3-9841-e025385ae446</FormGUID>
+  <FormHideNewParentFields>False</FormHideNewParentFields>
+  <FormIsCustom>False</FormIsCustom>
+  <FormName>quickadd</FormName>
+</cms.alternativeform>

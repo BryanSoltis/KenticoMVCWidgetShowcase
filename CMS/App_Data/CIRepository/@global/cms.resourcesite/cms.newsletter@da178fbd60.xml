@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.resourcesite>
+  <Parent>
+    <CodeName>CMS.Newsletter</CodeName>
+    <GUID>82445572-642a-4f53-a411-063e5f4b63c0</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="KenticoMVCWidgetShowcase">
+      <SiteID>
+        <CodeName>KenticoMVCWidgetShowcase</CodeName>
+        <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.resourcesite>

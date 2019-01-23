@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.site>
+  <SiteDisplayName>KenticoMVCWidgetShowcase</SiteDisplayName>
+  <SiteDomainName>localhost</SiteDomainName>
+  <SiteGUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</SiteGUID>
+  <SiteIsContentOnly>True</SiteIsContentOnly>
+  <SiteIsOffline>False</SiteIsOffline>
+  <SiteName>KenticoMVCWidgetShowcase</SiteName>
+  <SiteOfflineMessage />
+  <SitePresentationURL>http://localhost/KenticoMVCWidgetShowcase</SitePresentationURL>
+</cms.site>

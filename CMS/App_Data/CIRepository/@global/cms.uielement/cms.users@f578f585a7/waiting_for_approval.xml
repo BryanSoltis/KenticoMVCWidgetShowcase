@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.uielement>
+  <ElementCaption>{$administration.users_header.myapproval$}</ElementCaption>
+  <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>
+  <ElementDisplayName>{$administration.users_header.myapproval$}</ElementDisplayName>
+  <ElementFromVersion>6.0</ElementFromVersion>
+  <ElementGUID>627a0de6-77b8-4e89-9b1a-ccef61b2962d</ElementGUID>
+  <ElementIconClass />
+  <ElementIsCustom>False</ElementIsCustom>
+  <ElementIsGlobalApplication>False</ElementIsGlobalApplication>
+  <ElementIsMenu>False</ElementIsMenu>
+  <ElementName>Waiting_For_Approval</ElementName>
+  <ElementOrder>5</ElementOrder>
+  <ElementParentID>
+    <CodeName>CmsDesk.Users</CodeName>
+    <GUID>9823f848-bb15-4b21-8769-dc80b7adcd4c</GUID>
+    <ObjectType>cms.uielement</ObjectType>
+    <Parent>
+      <CodeName>CMS.Users</CodeName>
+      <GUID>31882975-240a-4bcf-bc38-09a3d21df485</GUID>
+      <ObjectType>cms.resource</ObjectType>
+    </Parent>
+  </ElementParentID>
+  <ElementRequiresGlobalAdminPriviligeLevel>False</ElementRequiresGlobalAdminPriviligeLevel>
+  <ElementResourceID>
+    <CodeName>CMS.Users</CodeName>
+    <GUID>31882975-240a-4bcf-bc38-09a3d21df485</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </ElementResourceID>
+  <ElementSize>0</ElementSize>
+  <ElementTargetURL>
+    <![CDATA[~/CMSModules/Membership/Pages/Users/General/User_WaitingForApproval.aspx?siteid={%CurrentSite.SiteID|(identity)GlobalAdministrator|(hash)afe762c36d6f1f2f33f4ef54ef7ba858852e416f6e1d4f3b16fa039d3f3ac933%}]]>
+  </ElementTargetURL>
+  <ElementType>Url</ElementType>
+  <ElementVisibilityCondition>
+    <![CDATA[{%Settings.CMSRegistrationAdministratorApproval|(identity)GlobalAdministrator|(hash)7086fdc394131f32dabec7100d93a82c8285b14917ef6a293229c9d8f5c5a078%}]]>
+  </ElementVisibilityCondition>
+</cms.uielement>

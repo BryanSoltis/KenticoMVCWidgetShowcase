@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.emailtemplate>
+  <EmailTemplateBcc />
+  <EmailTemplateCc />
+  <EmailTemplateDisplayName>Groups - Member approved</EmailTemplateDisplayName>
+  <EmailTemplateFrom />
+  <EmailTemplateGUID>d57092d8-28c3-4784-98d2-7d02f4a73a66</EmailTemplateGUID>
+  <EmailTemplateName>Groups.MemberApproved</EmailTemplateName>
+  <EmailTemplatePlainText>
+<![CDATA[
+Dear {%MemberUser.FirstName|(identity)GlobalAdministrator|(hash)414e6d8000cce4ae0ab91f79e43e62eab696c56f26c87ea21e619b86163077e3%},
+
+you have been approved as a full member of group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)ea878deeb438b30cbed367d4593a59931a550791a0e834dd8fa83f48b06dd38c%}'.
+
+
+Best Regards,
+
+The Community Team
+
+]]>
+  </EmailTemplatePlainText>
+  <EmailTemplateSubject />
+  <EmailTemplateText>
+<![CDATA[
+<html>
+  <head>
+  </head>
+  <body>
+    <p>Dear {%MemberUser.FirstName|(identity)GlobalAdministrator|(hash)414e6d8000cce4ae0ab91f79e43e62eab696c56f26c87ea21e619b86163077e3%},<br />
+    <br />
+    you have been approved as a full member of group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)ea878deeb438b30cbed367d4593a59931a550791a0e834dd8fa83f48b06dd38c%}'.</p>
+    <br />
+    <br />
+    Best Regards,<br />
+    <br />
+    The Community Team
+  </body>
+</html>
+]]>
+  </EmailTemplateText>
+  <EmailTemplateType>groupmember</EmailTemplateType>
+</cms.emailtemplate>

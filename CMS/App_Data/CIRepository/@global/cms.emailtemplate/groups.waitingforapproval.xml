@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.emailtemplate>
+  <EmailTemplateBcc />
+  <EmailTemplateCc />
+  <EmailTemplateDisplayName>Groups - Waiting for approval</EmailTemplateDisplayName>
+  <EmailTemplateFrom />
+  <EmailTemplateGUID>08d21450-4431-46c9-b654-a35b622fad10</EmailTemplateGUID>
+  <EmailTemplateName>Groups.WaitingForApproval</EmailTemplateName>
+  <EmailTemplatePlainText>
+<![CDATA[
+Group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)ea878deeb438b30cbed367d4593a59931a550791a0e834dd8fa83f48b06dd38c%}' is waiting for your approval.
+
+Best Regards,
+
+The Community Team
+]]>
+  </EmailTemplatePlainText>
+  <EmailTemplateSubject>
+    <![CDATA[Group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)ea878deeb438b30cbed367d4593a59931a550791a0e834dd8fa83f48b06dd38c%}' is waiting for approval]]>
+  </EmailTemplateSubject>
+  <EmailTemplateText>
+<![CDATA[
+<html>
+  <head>
+  </head>
+  <body>    
+    Group '{%Group.GroupDisplayName|(identity)GlobalAdministrator|(hash)ea878deeb438b30cbed367d4593a59931a550791a0e834dd8fa83f48b06dd38c%}' is waiting for your approval.
+    <br />
+    Best Regards,<br />
+    <br />
+    The Community Team
+  </body>
+</html>
+
+]]>
+  </EmailTemplateText>
+  <EmailTemplateType>groupmember</EmailTemplateType>
+</cms.emailtemplate>
