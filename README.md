@@ -15,7 +15,12 @@ administrator/[BLANK PASSWORD]
 
 **Continuos Integration**
 
-This project has Continuos Integration enbaled. You will use the **ContinuousIntegration.exe** utility to restore data to your local database. 
+This project has Continuos Integration enbaled. You will use the **ContinuousIntegration.exe** utility to restore data to your local database. The process to set up the site will be:
+
+   1. Unzip repo to local machine
+   2. Configure / Build / Launch the Admin site
+   3. Create database using the web utility (autmatic when the connection string is cleared)
+   4. Execute the ContinuousIntegration.exe command to restore objects
 
 **Connection String**
 
