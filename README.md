@@ -74,10 +74,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 
     *See the following URL for details.*
 
-    https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/dd409252(v=vs.100)
-
-    **NOTE**
-    You may get errors around the cms-User objects not being restored. These are expected and the shite should still restore properly. 
+    https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/dd409252(v=vs.100) 
 
 11. Once **ContinuousIntegration.exe** is complete, refresh the Admin site to confirm the objects were properly restored. In the **Sites** module, confirm the **KenticoMVCWidgetShowcase** site is listed.
 
