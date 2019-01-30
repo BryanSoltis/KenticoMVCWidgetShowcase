@@ -43,7 +43,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 
 2. Open the **[PROJECTFOLDER]\WebApp.sln** in Visual Studio.
 
-3. Update Web settings (IIS).
+3. Update Web settings (IIS) to you preferred path. The article uses http://localhost/KenticoMVCWidgetShowcaseAdmin as the URL.
 
 4. Clear the ConnectionStrings.
 
@@ -93,7 +93,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 ### MVC App
 1. Open the **[PROJECTFOLDER]\KenticoMVCWidgetShowcase.sln** in Visual Studio.
 
-2. Update Web settings (IIS) (OPTIONAL)
+2. Update Web settings (IIS) to you preferred path. The article uses http://localhost/KenticoMVCWidgetShowcase as the URL.
 
 3. Update the ConnectionString.
 
