@@ -19,12 +19,7 @@ administrator/[BLANK PASSWORD]
 
 **Continuos Integration**
 
-This project has Continuos Integration enbaled. You will use the **ContinuousIntegration.exe** utility to restore data to your local database. The process to set up the site will be:
-
-   1. Unzip repo to local machine
-   2. Configure / Build / Launch the Admin site
-   3. Create database using the web utility (autmatic when the connection string is cleared)
-   4. Execute the ContinuousIntegration.exe command to restore objects
+This project has Continuos Integration enbaled. You will use the **ContinuousIntegration.exe** utility to restore data to your local database.
 
 **Connection String**
 
@@ -38,7 +33,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 
 2. Open the **[PROJECTFOLDER]\WebApp.sln** in Visual Studio.
 
-3. Update Web settings (IIS).
+3. Update Web settings (IIS) to you preferred path. The article uses http://localhost/KenticoMVCWidgetShowcaseAdmin as the URL.
 
 4. Clear the ConnectionStrings.
 
@@ -88,7 +83,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 ### MVC App
 1. Open the **[PROJECTFOLDER]\KenticoMVCWidgetShowcase.sln** in Visual Studio.
 
-2. Update Web settings (IIS) (OPTIONAL)
+2. Update Web settings (IIS) to you preferred path. The article uses http://localhost/KenticoMVCWidgetShowcase as the URL.
 
 3. Update the ConnectionString.
 
