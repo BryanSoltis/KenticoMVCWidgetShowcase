@@ -13,6 +13,14 @@ Topics covered include:
 - Creating the content 
 - Creating a Home controller / view in the MVC application to display the content
 
+**Admin Site - Part 1**
+
+![Admin Site - Part 1](https://www.kentico.com/getattachment/Blog/2019-01/Creating-an-MVC-Widget-Showcase-site-with-Kentico/Demo1.png?lang=en-US&width=700&height=444)
+
+**MVC Site - Part 1**
+
+![MVC Site - Part 1](https://www.kentico.com/getattachment/Blog/2019-01/Creating-an-MVC-Widget-Showcase-site-with-Kentico/Demo2.png?lang=en-US&width=598&height=367)
+
 ## PROJECT DETAILS
 
 **Kentico Version**
