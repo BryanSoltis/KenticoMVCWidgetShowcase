@@ -36,7 +36,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 
 2. Open the **[PROJECTFOLDER]\WebApp.sln** in Visual Studio.
 
-3. Update Web settings (IIS) (OPTIONAL).
+3. Update Web settings (IIS).
 
 4. Clear the ConnectionStrings.
 
@@ -57,7 +57,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 8. Click the **Create a new site or import an existing Kentico site** to bypass automatic site creation.
 
 9. Once the site is installed, confirm the site is running. You should be directed to the **Sites** module. 
-10. Open a Command Prompt in the **[ProjectName]/bin** folder and run **ContinuousIntegration.exe -r**.
+10. Open a Command Prompt in the **[ProjectName]/CMS/bin** folder and run **ContinuousIntegration.exe -r**.
 
     **MORE INFO**
 
@@ -87,7 +87,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 1. Open the **[PROJECTFOLDER]\KenticoMVCWidgetShowcase.sln** in Visual Studio.
 
 2. Update Web settings (IIS) (OPTIONAL)
-.
+
 3. Update the ConnectionString.
 
    *Use the CMSConnectionString value from the CMSApp.sln solution's web.config file.*
