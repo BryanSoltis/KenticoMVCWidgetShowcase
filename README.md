@@ -29,7 +29,7 @@ administrator/[BLANK PASSWORD]
 
 **Continuos Integration**
 
-This project has Continuos Integration enbaled. You will use the **ContinuousIntegration.exe** utility to restore data to your local database.
+This project has Continuos Integration enabled. You will use the **ContinuousIntegration.exe** utility to restore data to your local database.
 
 **Connection String**
 
