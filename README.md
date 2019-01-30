@@ -63,7 +63,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 
     https://docs.kentico.com/k12/developing-websites/setting-up-continuous-integration/restoring-continuous-integration-files-to-the-database
 
-    *If you receive an error about loading an assembly from a network location, you may need to modify the **bin/COntinuousIntegration.exe.config** file to allow remote sources.*
+    *If you receive an error about loading an assembly from a network location, you may need to modify the **CMS/bin/ContinuousIntegration.exe.config** file to allow remote sources.*
 
     ```
     <runtime>
