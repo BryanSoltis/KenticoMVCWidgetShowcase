@@ -30,8 +30,6 @@ This project has Continuos Integration enbaled. You will use the **ContinuousInt
 
 The original project's Connection Strings have been encrypted. You will need to remove this section to set the project up locally.
 
-  **MORE INFO**
-
   https://www.codeproject.com/Tips/795135/%2fTips%2f795135%2fEncrypt-ConnectionString-in-Web-Config
 
 ## SETUP
