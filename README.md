@@ -5,6 +5,7 @@ This project details creating a sample MVC site using Kentico 12, as documented 
 
 ## ASSOCIATED ARTICLE
 This branch aligns with the following article: 
+
 https://www.kentico.com/blog/creating-an-mvc-widget-showcase-site-with-kentico-ems-and-mvc-getting-started
 
 Topics covered include:
