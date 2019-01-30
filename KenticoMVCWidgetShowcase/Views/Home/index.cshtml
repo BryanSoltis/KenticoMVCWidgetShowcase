@@ -1,13 +1,33 @@
 ﻿@model CMS.DocumentEngine.Types.KenticoMVCWidgetShowcase.HomePage
+@using Kentico.PageBuilder.Web.Mvc
+@using Kentico.Web.Mvc
+
 @{
     ViewBag.Title = "Home";
     Layout = "~/Views/Shared/_layout.cshtml";
 }
 
-@if (Model.HeaderImage.ToString() != "")
-{
-    string headerimageurl = Url.Kentico().ImageUrl(Model.HeaderImage, SizeConstraint.MaxWidthOrHeight(400));
-    <img src="@headerimageurl" alt="@Model.HeaderText" />
-}
 
-<h2>@Model.HeaderText</h2>
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+        <header>
+            <h1>
+                @Model.HeaderText
+            </h1>
+            <p>@Model.SubheaderText</p>
+        </header>
+        <p>@Model.IntroText</p>
+    </div>
+    @if (Model.HeaderImage.ToString() != "")
+    {
+        string headerimageurl = Url.Kentico().ImageUrl(Model.HeaderImage, SizeConstraint.MaxWidthOrHeight(400));
+        <span class="image object">
+            <img src="@headerimageurl" alt="@Model.HeaderText" />
+        </span>
+    }
+</section>
+
+<section>
+    @Html.Kentico().EditableArea("area1")
+</section>

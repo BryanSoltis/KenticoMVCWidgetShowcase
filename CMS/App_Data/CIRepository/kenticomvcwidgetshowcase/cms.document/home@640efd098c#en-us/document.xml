@@ -17,7 +17,7 @@
     <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
     <ObjectType>cms.user</ObjectType>
   </DocumentModifiedByUserID>
-  <DocumentModifiedWhen>2019-01-23 20:55:12Z</DocumentModifiedWhen>
+  <DocumentModifiedWhen>2019-01-28 20:50:22Z</DocumentModifiedWhen>
   <DocumentName>Home</DocumentName>
   <DocumentNodeID>
     <CodeName>/Home</CodeName>
@@ -29,6 +29,9 @@
       <ObjectType>cms.site</ObjectType>
     </Site>
   </DocumentNodeID>
+  <DocumentPageBuilderWidgets>
+    <![CDATA[{"editableAreas":[{"identifier":"area1","sections":[{"identifier":"bbdfd0ae-c685-480d-b596-eef0ca744264","type":"Kentico.DefaultSection","zones":[{"identifier":"caa0e087-a01f-468f-ae1f-0cc72d2c5113","widgets":[]}]}]}]}]]>
+  </DocumentPageBuilderWidgets>
   <DocumentPriority>0</DocumentPriority>
   <DocumentShowInSiteMap>True</DocumentShowInSiteMap>
   <DocumentUrlPath />

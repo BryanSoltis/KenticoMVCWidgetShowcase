@@ -4,5 +4,9 @@
   <HeaderImage>
     <![CDATA[~/getattachment/a1ce5a8f-69d1-4678-907b-cbb29a70cb44/Jellyfish.jpg.aspx?lang=en-US&width=600&height=450&ext=.jpg]]>
   </HeaderImage>
-  <HeaderText>Not an incredibly exciting start to things</HeaderText>
+  <HeaderText>Welcome!</HeaderText>
+  <IntroText>
+    <![CDATA[This site provides you some great sample MVC widgets to use in your Kentico 12+ sites. ]]>
+  </IntroText>
+  <SubheaderText>Find great Kentico MVC WIdgets</SubheaderText>
 </documentfields.kenticomvcwidgetshowcase.homepage>

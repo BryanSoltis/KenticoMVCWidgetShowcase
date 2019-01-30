@@ -332,6 +332,7 @@
     <Content Include="App_Data\CIRepository\%40global\badwords.word\twat%401c17c8b75f.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.allowedchildclass\kenticomvcwidgetshowcase.contentpage%4093e20bf450.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.allowedchildclass\kenticomvcwidgetshowcase.homepage%40e5c3052828.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.allowedchildclass\kenticomvcwidgetshowcase.mvcwidgetspage%407f7930de06.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.class_cms.category\personal.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.class_cms.class\customtable.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.class_cms.class\documenttype.xml" />
@@ -383,16 +384,6 @@
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.class_om.contactgroup\updateandinsert.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.class_om.mvtest\update.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.documenttype_cms.file\filter.xml" />
-    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\checkoutregistrationmobileecommercesite.xml" />
-    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\checkoutregistration_e-commerce.xml" />
-    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\displayprofile.xml" />
-    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\displayprofilecorporatesite.xml" />
-    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\displayprofileintranet.xml" />
-    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\editprofile.xml" />
-    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\editprofilecommunity.xml" />
-    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\editprofileintranet.xml" />
-    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\editprofilemydesk.xml" />
-    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\registrationform.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_community.group\displayprofile.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_ecommerce.address\orderpropertiesaddress.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_ecommerce.address\ordersaddress.xml" />
@@ -522,6 +513,14 @@
     <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_cms.root\modify.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_cms.root\modifypermissions.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_cms.root\read.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..ase.mvcwidgetspage%407f7930de06\create.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..ase.mvcwidgetspage%407f7930de06\createspecific.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..ase.mvcwidgetspage%407f7930de06\delete.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..ase.mvcwidgetspage%407f7930de06\destroy.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..ase.mvcwidgetspage%407f7930de06\exploretree.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..ase.mvcwidgetspage%407f7930de06\modify.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..ase.mvcwidgetspage%407f7930de06\modifypermissions.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..ase.mvcwidgetspage%407f7930de06\read.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..owcase.contentpage%4093e20bf450\create.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..owcase.contentpage%4093e20bf450\createspecific.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.classpermission\cms.documenttype_k..owcase.contentpage%4093e20bf450\delete.xml" />
@@ -542,6 +541,7 @@
     <Content Include="App_Data\CIRepository\%40global\cms.classsite\cms.root%401f94d692e8.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.classsite\kenticomvcwidgetshowcase.contentpage%4093e20bf450.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.classsite\kenticomvcwidgetshowcase.homepage%40e5c3052828.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.classsite\kenticomvcwidgetshowcase.mvcwidgetspage%407f7930de06.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.class\analytics.campaign.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.class\analytics.campaignasset.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.class\analytics.campaignasseturl.xml" />
@@ -1233,6 +1233,7 @@
     <Content Include="App_Data\CIRepository\%40global\cms.documenttype\cms.root.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.documenttype\kenticomvcwidgetshowcase.contentpage.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.documenttype\kenticomvcwidgetshowcase.homepage.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.documenttype\kenticomvcwidgetshowcase.mvcwidgetspage.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.emailtemplate\blog.newcommentnotification.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.emailtemplate\blog.notificationtomoderators.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.emailtemplate\blog.notificationtosubcribers.xml" />
@@ -6920,6 +6921,9 @@
     <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.document\home%40640efd098c#en-us\document.xml" />
     <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.document\home%40640efd098c#en-us\fields.xml" />
     <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.document\home%40640efd098c.xml" />
+    <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.document\mvcwidgets%40fe0e3d832d#en-us\document.xml" />
+    <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.document\mvcwidgets%40fe0e3d832d#en-us\fields.xml" />
+    <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.document\mvcwidgets%40fe0e3d832d.xml" />
     <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.scheduledtask\content.publish.xml" />
     <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.scheduledtask\ecommerce.deleteoldshoppingcarts.xml" />
     <Content Include="App_Data\CIRepository\kenticomvcwidgetshowcase\cms.scheduledtask\newsletter.checkbounces.xml" />
@@ -26570,6 +26574,8 @@
     <Compile Include="Old_App_Code\CMSClasses\Pages\KenticoMVCWidgetShowcase\ContentPageProvider.generated.cs" />
     <Compile Include="Old_App_Code\CMSClasses\Pages\KenticoMVCWidgetShowcase\HomePage.generated.cs" />
     <Compile Include="Old_App_Code\CMSClasses\Pages\KenticoMVCWidgetShowcase\HomePageProvider.generated.cs" />
+    <Compile Include="Old_App_Code\CMSClasses\Pages\KenticoMVCWidgetShowcase\MVCWidgetsPage.generated.cs" />
+    <Compile Include="Old_App_Code\CMSClasses\Pages\KenticoMVCWidgetShowcase\MVCWidgetsPageProvider.generated.cs" />
     <Compile Include="Old_App_Code\CMSModules\Automation\AutomationFunctions.cs" />
     <Compile Include="Old_App_Code\CMSModules\Badges\BadgesListControlExtender.cs" />
     <Compile Include="Old_App_Code\CMSModules\BadWords\BadWordsListControlExtender.cs" />

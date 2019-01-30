@@ -42,6 +42,32 @@
           <Trim>False</Trim>
         </settings>
       </field>
+      <field allowempty="true" column="SubheaderText" columnsize="200" columntype="text" guid="c0e3b549-db78-4a2e-a047-6ce05f47dd44" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Subheader Text</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="IntroText" columnsize="500" columntype="text" guid="eafc778f-28c8-4852-baf2-b1716c736849" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>Intro Text</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextAreaControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Wrap>True</Wrap>
+        </settings>
+      </field>
       <field column="HeaderImage" columnsize="200" columntype="text" guid="b7130eed-3057-48f0-b6d7-917f8f12b0a0" publicfield="false" visible="true">
         <properties>
           <fieldcaption>Header Image</fieldcaption>
@@ -65,7 +91,7 @@
   <ClassIsCustomTable>False</ClassIsCustomTable>
   <ClassIsDocumentType>True</ClassIsDocumentType>
   <ClassIsForm>False</ClassIsForm>
-  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassIsMenuItemType>True</ClassIsMenuItemType>
   <ClassName>KenticoMVCWidgetShowcase.HomePage</ClassName>
   <ClassNodeNameSource>ContentPageName</ClassNodeNameSource>
   <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>

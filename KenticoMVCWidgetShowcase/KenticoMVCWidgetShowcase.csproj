@@ -605,6 +605,14 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Content\assets\css\font-awesome.min.css" />
+    <Content Include="Content\assets\css\main.css" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\assets\js\breakpoints.min.js" />
+    <Content Include="Content\assets\js\browser.min.js" />
+    <Content Include="Content\assets\js\jquery.min.js" />
+    <Content Include="Content\assets\js\main.js" />
+    <Content Include="Content\assets\js\util.js" />
     <Content Include="Global.asax" />
     <Content Include="Kentico\Content\FormComponents\USPhone\dependencyLibs\inputmask.dependencyLib.js" />
     <Content Include="Kentico\Content\FormComponents\USPhone\inputmask.js" />
@@ -675,8 +683,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\ApplicationConfig.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MVCWidgetsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -684,6 +694,8 @@
     <Compile Include="Models\Generated\ContentPageProvider.generated.cs" />
     <Compile Include="Models\Generated\HomePage.generated.cs" />
     <Compile Include="Models\Generated\HomePageProvider.generated.cs" />
+    <Compile Include="Models\Generated\MVCWidgetsPage.generated.cs" />
+    <Compile Include="Models\Generated\MVCWidgetsPageProvider.generated.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -691,11 +703,50 @@
     <Content Include="Kentico\Scripts\builders\Core-icons.woff" />
     <Content Include="Kentico\Scripts\builders\Core-icons.ttf" />
     <Content Include="Kentico\Scripts\builders\Core-icons.eot" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\assets\fonts\FontAwesome.otf" />
+    <Content Include="Content\assets\sass\base\_page.scss" />
+    <Content Include="Content\assets\sass\base\_reset.scss" />
+    <Content Include="Content\assets\sass\base\_typography.scss" />
+    <Content Include="Content\assets\sass\components\_actions.scss" />
+    <Content Include="Content\assets\sass\components\_box.scss" />
+    <Content Include="Content\assets\sass\components\_button.scss" />
+    <Content Include="Content\assets\sass\components\_contact.scss" />
+    <Content Include="Content\assets\sass\components\_features.scss" />
+    <Content Include="Content\assets\sass\components\_form.scss" />
+    <Content Include="Content\assets\sass\components\_icon.scss" />
+    <Content Include="Content\assets\sass\components\_icons.scss" />
+    <Content Include="Content\assets\sass\components\_image.scss" />
+    <Content Include="Content\assets\sass\components\_list.scss" />
+    <Content Include="Content\assets\sass\components\_mini-posts.scss" />
+    <Content Include="Content\assets\sass\components\_pagination.scss" />
+    <Content Include="Content\assets\sass\components\_posts.scss" />
+    <Content Include="Content\assets\sass\components\_row.scss" />
+    <Content Include="Content\assets\sass\components\_section.scss" />
+    <Content Include="Content\assets\sass\components\_table.scss" />
+    <Content Include="Content\assets\sass\layout\_banner.scss" />
+    <Content Include="Content\assets\sass\layout\_footer.scss" />
+    <Content Include="Content\assets\sass\layout\_header.scss" />
+    <Content Include="Content\assets\sass\layout\_main.scss" />
+    <Content Include="Content\assets\sass\layout\_menu.scss" />
+    <Content Include="Content\assets\sass\layout\_sidebar.scss" />
+    <Content Include="Content\assets\sass\layout\_wrapper.scss" />
+    <Content Include="Content\assets\sass\libs\_breakpoints.scss" />
+    <Content Include="Content\assets\sass\libs\_functions.scss" />
+    <Content Include="Content\assets\sass\libs\_html-grid.scss" />
+    <Content Include="Content\assets\sass\libs\_mixins.scss" />
+    <Content Include="Content\assets\sass\libs\_vars.scss" />
+    <Content Include="Content\assets\sass\libs\_vendor.scss" />
+    <Content Include="Content\assets\sass\main.scss" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
     <Content Include="Views\Shared\_layout.cshtml" />
     <Content Include="Views\Home\index.cshtml" />
+    <Content Include="Views\MVCWidgets\index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App_Data\Global\Resources\Kentico.Builder.resx" />

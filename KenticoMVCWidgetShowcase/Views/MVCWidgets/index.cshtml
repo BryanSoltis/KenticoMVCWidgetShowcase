@@ -1,0 +1,20 @@
+﻿@model CMS.DocumentEngine.Types.KenticoMVCWidgetShowcase.MVCWidgetsPage
+@using Kentico.PageBuilder.Web.Mvc
+@using Kentico.Web.Mvc
+
+@{
+    ViewBag.Title = "index";
+    Layout = "~/Views/Shared/_layout.cshtml";
+}
+
+<!-- Banner -->
+<section id="banner">
+    <div class="content">
+        <header>
+            <h1>
+                @Model.HeaderText
+            </h1>
+        </header>
+        <p>@Model.IntroText</p>
+    </div>
+</section>

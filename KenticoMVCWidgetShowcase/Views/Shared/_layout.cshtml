@@ -1,17 +1,64 @@
-﻿@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>@ViewBag.Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="~/content/assets/css/main.css" />
+    @Html.Kentico().PageBuilderStyles()
 </head>
 
-<body>
-    <div>
-        @RenderBody()
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+
+                <!-- Header -->
+                <header id="header">
+                    Kentico MVC Widget Showcase</a>
+                </header>
+
+                @RenderBody()
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <div class="inner">
+
+                <!-- Search -->
+                <section id="search" class="alt">
+                    <form method="post" action="#">
+                        <input type="text" name="query" id="query" placeholder="Search" />
+                    </form>
+                </section>
+
+                <!-- Menu -->
+                <nav id="menu">
+                    <header class="major">
+                        <h2>Menu</h2>
+                    </header>
+                    <ul>
+                        <li><a href="~/home">Homepage</a></li>
+                        <li><a href="~/mvcwidgets">MVC Widgets</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Footer -->
+                <footer id="footer">
+                    <p class="copyright">Copyright © 2004-@DateTime.Now.Year Kentico Software.</p>
+                </footer>
+
+            </div>
+        </div>
     </div>
+    <!-- Scripts -->
+    @Scripts.Render("~/bundles/themejs")
+
+    @Html.Kentico().PageBuilderScripts()
 </body>
 </html>

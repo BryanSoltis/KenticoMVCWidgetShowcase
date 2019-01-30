@@ -98,6 +98,40 @@ namespace CMS.DocumentEngine.Types.KenticoMVCWidgetShowcase
 
 
 		/// <summary>
+		/// Subheader Text.
+		/// </summary>
+		[DatabaseField]
+		public string SubheaderText
+		{
+			get
+			{
+				return ValidationHelper.GetString(GetValue("SubheaderText"), @"");
+			}
+			set
+			{
+				SetValue("SubheaderText", value);
+			}
+		}
+
+
+		/// <summary>
+		/// Intro Text.
+		/// </summary>
+		[DatabaseField]
+		public string IntroText
+		{
+			get
+			{
+				return ValidationHelper.GetString(GetValue("IntroText"), @"");
+			}
+			set
+			{
+				SetValue("IntroText", value);
+			}
+		}
+
+
+		/// <summary>
 		/// Header Image.
 		/// </summary>
 		[DatabaseField]
@@ -193,6 +227,38 @@ namespace CMS.DocumentEngine.Types.KenticoMVCWidgetShowcase
 				set
 				{
 					mInstance.HeaderText = value;
+				}
+			}
+
+
+			/// <summary>
+			/// Subheader Text.
+			/// </summary>
+			public string SubheaderText
+			{
+				get
+				{
+					return mInstance.SubheaderText;
+				}
+				set
+				{
+					mInstance.SubheaderText = value;
+				}
+			}
+
+
+			/// <summary>
+			/// Intro Text.
+			/// </summary>
+			public string IntroText
+			{
+				get
+				{
+					return mInstance.IntroText;
+				}
+				set
+				{
+					mInstance.IntroText = value;
 				}
 			}
 

@@ -1,11 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using System.Web.Routing;
-
 using Kentico.Web.Mvc;
+using KenticoMVCWidgetShowcase.App_Start;
+using System.Web.Optimization;
+using System.Web.Routing;
 
 namespace KenticoMVCWidgetShowcase
 {
@@ -15,6 +11,9 @@ namespace KenticoMVCWidgetShowcase
         {
             // Enables and configures selected Kentico ASP.NET MVC integration features
             ApplicationConfig.RegisterFeatures(ApplicationBuilder.Current);
+
+            // Register the script bundles
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
 
             // Registers routes including system routes for enabled features
             RouteConfig.RegisterRoutes(RouteTable.Routes);
