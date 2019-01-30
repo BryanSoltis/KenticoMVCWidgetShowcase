@@ -4,6 +4,9 @@
 This project details creating a sample MVC site using Kentico 12, as documented in the article series below. This site will be continually updated with new functionality as new articles are published. Each branch of the repository corresponds to the matching article. 
 
 ## PROJECT DETAILS
+This is a blank Kentico 12 / MVC install that is used as the base for the MVC series article series below. 
+
+https://www.kentico.com/blog/creating-an-mvc-widget-showcase-site-with-kentico-ems-and-mvc-getting-started
 
 **Kentico Version**
 
@@ -33,7 +36,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 
 2. Open the **[PROJECTFOLDER]\WebApp.sln** in Visual Studio.
 
-3. Update Web settings (IIS) to you preferred path. The article uses http://localhost/KenticoMVCWidgetShowcaseAdmin as the URL.
+3. Update Web settings (IIS) to your preferred path. The article uses http://localhost/KenticoMVCWidgetShowcaseAdmin as the URL.
 
 4. Clear the ConnectionStrings. (The new connection string will be set during the DB setup process.)
 
@@ -83,7 +86,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 ### MVC App
 1. Open the **[PROJECTFOLDER]\KenticoMVCWidgetShowcase.sln** in Visual Studio.
 
-2. Update Web settings (IIS) to you preferred path. The article uses http://localhost/KenticoMVCWidgetShowcase as the URL.
+2. Update Web settings (IIS) to your preferred path. The article uses http://localhost/KenticoMVCWidgetShowcase as the URL.
 
 3. Update the ConnectionString.
 
