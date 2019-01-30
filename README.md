@@ -45,7 +45,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 
 3. Update Web settings (IIS) to you preferred path. The article uses http://localhost/KenticoMVCWidgetShowcaseAdmin as the URL.
 
-4. Clear the ConnectionStrings.
+4. Clear the ConnectionStrings. (The new connection string will be set during the DB setup process.)
 
    **EXAMPLE**
    ```
