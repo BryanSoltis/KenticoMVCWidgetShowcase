@@ -13,6 +13,10 @@ This project details creating a sample MVC site using Kentico 12, as documented 
 
 administrator/[BLANK PASSWORD]
 
+**Prerequisites**
+- Visual Sutdio 2017
+- Access to SQL server
+
 **Continuos Integration**
 
 This project has Continuos Integration enbaled. You will use the **ContinuousIntegration.exe** utility to restore data to your local database. The process to set up the site will be:
