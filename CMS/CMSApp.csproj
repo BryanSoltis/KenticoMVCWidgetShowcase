@@ -384,6 +384,16 @@
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.class_om.contactgroup\updateandinsert.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.class_om.mvtest\update.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.documenttype_cms.file\filter.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\checkoutregistrationmobileecommercesite.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\checkoutregistration_e-commerce.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\displayprofile.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\displayprofilecorporatesite.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\displayprofileintranet.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\editprofile.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\editprofilecommunity.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\editprofileintranet.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\editprofilemydesk.xml" />
+    <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_cms.user\registrationform.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_community.group\displayprofile.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_ecommerce.address\orderpropertiesaddress.xml" />
     <Content Include="App_Data\CIRepository\%40global\cms.alternativeform\cms.systemtable_ecommerce.address\ordersaddress.xml" />
