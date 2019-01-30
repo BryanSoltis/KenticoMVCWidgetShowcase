@@ -95,10 +95,10 @@ The original project's Connection Strings have been encrypted. You will need to 
 
 15. In the **Sites** application, select the **KenticoMVCWidgetShowcase** site and update the **Presentation URL** with your local path you will use for the MVC site.
 
-**NOTE**
-This value will be the same url as your MVC site.
+   **NOTE**
+   This value will be the same url as your MVC site.
 
-14. Start the  site in the **Sites** module.
+16. Start the  site in the **Sites** module.
 
 
 ### MVC App
