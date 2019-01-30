@@ -1,4 +1,4 @@
-# KenticoMVCWidgetShowcase
+# Kentico MVC Widget Showcase
 
 ## OVERVIEW
 This project details creating a sample MVC site using Kentico 12, as documented in the article series below. This site will be continually updated with new functionality as new articles are published. Each branch of the repository corresponds to the matching article. 
