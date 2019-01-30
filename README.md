@@ -3,6 +3,11 @@
 ## OVERVIEW
 This project details creating a sample MVC site using Kentico 12, as documented in the article series below. This site will be continually updated with new functionality as new articles are published. Each branch of the repository corresponds to the matching article. 
 
+## Associated Article
+This branch aligns with the following article. The article walks through the process of creating a basic Home page page type and creating the content. It also covers creating a Home controller / view in the MVC application to display the content.
+
+https://www.kentico.com/blog/creating-an-mvc-widget-showcase-site-with-kentico-ems-and-mvc-getting-started
+
 ## PROJECT DETAILS
 
 **Kentico Version**
