@@ -61,19 +61,18 @@ The original project's Connection Strings have been encrypted. You will need to 
    </connectionStrings>
    ```
    
-5. Build the project and run the site.
+5. Build the project and run the site. This will launch the database installtion utlity.
 
    *If you recieve a Roslyn.exe related error, close VS, open project again, clean, and rebuild.*
-   
-6. On the setup page, create the database.
 
-7. Once the database is created, add your license for your development environment.
-
-8. Click the **Create a new site or import an existing Kentico site** to bypass automatic site creation.
-
-9. Once the site is installed, you should be directed to the **Sites** module. 
-10. Click on the **Home** icon to exit to the Application Dashboard.
-11. Open a Command Prompt in the **[ProjectName]/CMS/bin** folder and run **ContinuousIntegration.exe -r**.
+6. On **Step 1**, enter your SQL Server connection infomration and credentials.
+7. On **Step 2**, enter your database name.
+8. On **Step 3**, confirm the database was successfully created.
+9. On **Step 4**, add your license for your development environment.
+10. On **Step 5**, select **Create a new site or import an existing Kentico site** to bypass automatic site creation.
+11. Once the process is complete, you should be directed to the **Sites** module. 
+12. Click on the **Home** icon to exit to the Application Dashboard.
+13. Open a Command Prompt in the **[ProjectName]/CMS/bin** folder and run **ContinuousIntegration.exe -r**.
 
     **MORE INFO**
 
@@ -92,9 +91,12 @@ The original project's Connection Strings have been encrypted. You will need to 
 
     https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/dd409252(v=vs.100) 
 
-12. Once **ContinuousIntegration.exe** is complete, refresh the Admin site to confirm the objects were properly restored. In the **Sites** module, confirm the **KenticoMVCWidgetShowcase** site is listed.
+14. Once **ContinuousIntegration.exe** is complete, refresh the Admin site to confirm the objects were properly restored. In the **Sites** module, confirm the **KenticoMVCWidgetShowcase** site is listed.
 
-13. In the **Sites** application, select the **KenticoMVCWidgetShowcase** site and update the **Presentation URL / Domain** with your local path.
+15. In the **Sites** application, select the **KenticoMVCWidgetShowcase** site and update the **Presentation URL** with your local path you will use for the MVC site.
+
+**NOTE**
+This value will be the same url as your MVC site.
 
 14. Start the  site in the **Sites** module.
 
@@ -103,6 +105,9 @@ The original project's Connection Strings have been encrypted. You will need to 
 1. Open the **[PROJECTFOLDER]\KenticoMVCWidgetShowcase.sln** in Visual Studio.
 
 2. Update Web settings (IIS) to your preferred path. The article uses http://localhost/KenticoMVCWidgetShowcase as the URL.
+
+**NOTE**
+This value will be the same url as your **Presentation URL** in your Admin site. 
 
 3. Update the ConnectionString.
 
