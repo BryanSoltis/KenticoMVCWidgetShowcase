@@ -72,7 +72,8 @@ The original project's Connection Strings have been encrypted. You will need to 
 8. Click the **Create a new site or import an existing Kentico site** to bypass automatic site creation.
 
 9. Once the site is installed, you should be directed to the **Sites** module. 
-10. Open a Command Prompt in the **[ProjectName]/CMS/bin** folder and run **ContinuousIntegration.exe -r**.
+10. Click on the **Home** icon to go to teh Application Dashboard.
+11. Open a Command Prompt in the **[ProjectName]/CMS/bin** folder and run **ContinuousIntegration.exe -r**.
 
     **MORE INFO**
 
@@ -91,11 +92,11 @@ The original project's Connection Strings have been encrypted. You will need to 
 
     https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/dd409252(v=vs.100) 
 
-11. Once **ContinuousIntegration.exe** is complete, refresh the Admin site to confirm the objects were properly restored. In the **Sites** module, confirm the **KenticoMVCWidgetShowcase** site is listed.
+12. Once **ContinuousIntegration.exe** is complete, refresh the Admin site to confirm the objects were properly restored. In the **Sites** module, confirm the **KenticoMVCWidgetShowcase** site is listed.
 
-12. In the **Sites** application, select the **KenticoMVCWidgetShowcase** site and update the **Presentation URL / Domain** with your local path.
+13. In the **Sites** application, select the **KenticoMVCWidgetShowcase** site and update the **Presentation URL / Domain** with your local path.
 
-13. Start the  site in the **Sites** module.
+14. Start the  site in the **Sites** module.
 
 
 ### MVC App
