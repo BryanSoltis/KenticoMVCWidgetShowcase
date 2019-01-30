@@ -91,14 +91,14 @@ The original project's Connection Strings have been encrypted. You will need to 
 
     https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/dd409252(v=vs.100) 
 
-14. Once **ContinuousIntegration.exe** is complete, refresh the Admin site to confirm the objects were properly restored. In the **Sites** module, confirm the **KenticoMVCWidgetShowcase** site is listed.
+14. Once **ContinuousIntegration.exe** is complete, refresh the Admin site to confirm the objects were properly restored. In the **Sites** application, confirm the **KenticoMVCWidgetShowcase** site is listed.
 
 15. In the **Sites** application, select the **KenticoMVCWidgetShowcase** site and update the **Presentation URL** with your local path you will use for the MVC site.
 
    **NOTE**
    This value will be the same url as your MVC site.
 
-16. Start the  site in the **Sites** module.
+16. Start the  site in the **Sites** application.
 
 
 ### MVC App
