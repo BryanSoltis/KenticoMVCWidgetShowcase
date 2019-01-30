@@ -71,7 +71,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 
 8. Click the **Create a new site or import an existing Kentico site** to bypass automatic site creation.
 
-9. Once the site is installed, confirm the site is running. You should be directed to the **Sites** module. 
+9. Once the site is installed, you should be directed to the **Sites** module. 
 10. Open a Command Prompt in the **[ProjectName]/CMS/bin** folder and run **ContinuousIntegration.exe -r**.
 
     **MORE INFO**
