@@ -49,7 +49,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 ### CMS App
 1. Download/clone the repository to you local machine and unzip (if needed).
 
-2. Open the **[ProjectName]\WebApp.sln** in Visual Studio.
+2. Open the **[ProjectName]/WebApp.sln** in Visual Studio.
 
 3. Update Web settings (IIS) to your preferred path. The article uses http://localhost/KenticoMVCWidgetShowcaseAdmin as the URL.
 
