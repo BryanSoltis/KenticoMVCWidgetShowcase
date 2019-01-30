@@ -71,7 +71,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 9. On **Step 4**, add your license for your development environment.
 10. On **Step 5**, select **Create a new site or import an existing Kentico site** to bypass automatic site creation.
 11. Once the process is complete, you should be directed to the **Sites** module. 
-12. Click on the **Home** icon to exit to the Application Dashboard.
+12. Click on the **Home** icon to exit to the **Application Dashboard**.
 13. Open a Command Prompt in the **[ProjectName]/CMS/bin** folder and run **ContinuousIntegration.exe -r**.
 
     **MORE INFO**
@@ -95,8 +95,9 @@ The original project's Connection Strings have been encrypted. You will need to 
 
 15. In the **Sites** application, select the **KenticoMVCWidgetShowcase** site and update the **Presentation URL** with your local path you will use for the MVC site.
 
-   **NOTE**
-   This value will be the same url as your MVC site.
+    **NOTE**
+
+    This value will be the same url as your MVC site.
 
 16. Start the  site in the **Sites** application.
 
