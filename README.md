@@ -17,12 +17,12 @@ https://www.kentico.com/blog/creating-an-mvc-widget-showcase-site-with-kentico-e
 administrator/[BLANK PASSWORD]
 
 **Prerequisites**
-- Visual Sutdio 2017
+- Visual Studio 2017
 - Access to SQL server
 
-**Continuos Integration**
+**Continuous Integration**
 
-This project has Continuos Integration enabled. You will use the **ContinuousIntegration.exe** utility to restore data to your local database.
+This project has Continuous Integration enabled. You will use the **ContinuousIntegration.exe** utility to restore data to your local database.
 
 **Connection String**
 
@@ -34,7 +34,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 ### CMS App
 1. Download/clone the repository to you local machine and unzip (if needed).
 
-2. Open the **[PROJECTFOLDER]\WebApp.sln** in Visual Studio.
+2. Open the **[ProjectName]/WebApp.sln** in Visual Studio.
 
 3. Update Web settings (IIS) to your preferred path. The article uses http://localhost/KenticoMVCWidgetShowcaseAdmin as the URL.
 
@@ -63,7 +63,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 
     https://docs.kentico.com/k12/developing-websites/setting-up-continuous-integration/restoring-continuous-integration-files-to-the-database
 
-    *If you receive an error about loading an assembly from a network location, you may need to modify the **CMS/bin/ContinuousIntegration.exe.config** file to allow remote sources.*
+    *If you receive an error about loading an assembly from a network location, you may need to modify the **[ProjectName]/CMS/bin/ContinuousIntegration.exe.config** file to allow remote sources.*
 
     ```
     <runtime>
