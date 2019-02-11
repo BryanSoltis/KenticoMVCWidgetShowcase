@@ -17,7 +17,7 @@ https://www.kentico.com/blog/creating-an-mvc-widget-showcase-site-with-kentico-e
 administrator/[BLANK PASSWORD]
 
 **Prerequisites**
-- Visual Sutdio 2017
+- Visual Studio 2017
 - Access to SQL server
 
 **Continuos Integration**
