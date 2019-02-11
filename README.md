@@ -32,7 +32,7 @@ Topics covered include:
 administrator/[BLANK PASSWORD]
 
 **Prerequisites**
-- Visual Sutdio 2017
+- Visual Studio 2017
 - Access to SQL server
 
 **Continuos Integration**
