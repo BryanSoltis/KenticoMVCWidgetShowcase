@@ -52,13 +52,14 @@
           <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
           <controlname>TextAreaControl</controlname>
           <FilterMode>False</FilterMode>
+          <Rows>10</Rows>
           <Wrap>True</Wrap>
         </settings>
       </field>
     </form>
   </ClassFormDefinition>
   <ClassGUID>f063ddd2-f6ca-4748-b0df-2dbee73c7697</ClassGUID>
-  <ClassIconClass>icon-doc-o</ClassIconClass>
+  <ClassIconClass>icon-doc</ClassIconClass>
   <ClassInheritsFromClassID>
     <CodeName>KenticoMVCWidgetShowcase.ContentPage</CodeName>
     <GUID>abe845cc-c655-4776-bbe7-0f81c7d4e5f5</GUID>

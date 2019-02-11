@@ -62,9 +62,8 @@
       <HintPath>..\packages\AWSSDK.S3.3.1.9.0\lib\net45\AWSSDK.S3.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc">
-      <HintPath>..\packages\Castle.Core.4.2.0\lib\net45\Castle.Core.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.3.1\lib\net45\Castle.Core.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Windsor, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc">
       <HintPath>..\packages\Castle.Windsor.4.1.0\lib\net45\Castle.Windsor.dll</HintPath>
@@ -595,6 +594,7 @@
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Xml" />
     <Reference Include="Ude, Version=0.1.0.0, Culture=neutral, PublicKeyToken=834b12a258f213f9, processorArchitecture=MSIL">
       <HintPath>..\packages\Kentico.Libraries.12.0.5\lib\net461\Ude.dll</HintPath>
     </Reference>
@@ -613,7 +613,16 @@
     <Content Include="Content\assets\js\jquery.min.js" />
     <Content Include="Content\assets\js\main.js" />
     <Content Include="Content\assets\js\util.js" />
+    <Content Include="Content\InlineEditors\TextEditor\medium-editor\css\medium-editor.css" />
+    <Content Include="Content\InlineEditors\TextEditor\medium-editor\css\themes\default.css" />
+    <Content Include="Content\InlineEditors\TextEditor\medium-editor\js\medium-editor.js" />
+    <Content Include="Content\InlineEditors\TextEditor\text-editor.js" />
+    <Content Include="Content\InlineEditors\TextEditor\TextEditor.css" />
+    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="KenticoMVCWidgetShowcase\media\graphics\115x115_kentico.png" />
+    <Content Include="KenticoMVCWidgetShowcase\media\mvcwidgetpackages\GitNotes.txt" />
+    <Content Include="KenticoMVCWidgetShowcase\media\mvcwidgetpackages\Screenshot1.png" />
     <Content Include="Kentico\Content\FormComponents\USPhone\dependencyLibs\inputmask.dependencyLib.js" />
     <Content Include="Kentico\Content\FormComponents\USPhone\inputmask.js" />
     <Content Include="Kentico\Content\InlineEditors\DropdownEditor\dropdown-editor.js" />
@@ -687,15 +696,27 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MVCWidgetsController.cs" />
+    <Compile Include="Controllers\Widgets\MVCWidgetListWidget\MVCWidgetListWidgetController.cs" />
+    <Compile Include="Controllers\Widgets\TextWidget\TextWidgetController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Extensions\UrlHelperExtensions.cs" />
     <Compile Include="Models\Generated\ContentPage.generated.cs" />
     <Compile Include="Models\Generated\ContentPageProvider.generated.cs" />
     <Compile Include="Models\Generated\HomePage.generated.cs" />
     <Compile Include="Models\Generated\HomePageProvider.generated.cs" />
+    <Compile Include="Models\Generated\MVCWidget.generated.cs" />
+    <Compile Include="Models\Generated\MVCWidgetProvider.generated.cs" />
     <Compile Include="Models\Generated\MVCWidgetsPage.generated.cs" />
     <Compile Include="Models\Generated\MVCWidgetsPageProvider.generated.cs" />
+    <Compile Include="Models\InlineEditors\InlineEditorViewModel.cs" />
+    <Compile Include="Models\InlineEditors\TextEditor\TextEditorViewModel.cs" />
+    <Compile Include="Models\MVCWidgets\MVCWidgetViewModel.cs" />
+    <Compile Include="Models\Widgets\MVCWidgetListWidget\MVCWidgetListWidgetProperties.cs" />
+    <Compile Include="Models\Widgets\MVCWidgetListWidget\MVCWidgetListWidgetViewModel.cs" />
+    <Compile Include="Models\Widgets\TextWidget\TextWidgetProperties.cs" />
+    <Compile Include="Models\Widgets\TextWidget\TextWidgetViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -747,6 +768,10 @@
     <Content Include="Views\Shared\_layout.cshtml" />
     <Content Include="Views\Home\index.cshtml" />
     <Content Include="Views\MVCWidgets\index.cshtml" />
+    <Content Include="Views\Shared\Widgets\_MVCWidgetListWidget.cshtml" />
+    <Content Include="Views\MVCWidgets\Show.cshtml" />
+    <Content Include="Views\Shared\Widgets\_TextWidget.cshtml" />
+    <Content Include="Views\Shared\InlineEditors\_TextEditor.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App_Data\Global\Resources\Kentico.Builder.resx" />
@@ -767,7 +792,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>57202</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost/KenticoMVCWidgetShowcase</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

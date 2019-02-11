@@ -5,7 +5,11 @@
   <UserDialogsConfiguration>
     <Data>
       <attachments.viewmode>list</attachments.viewmode>
-      <selectedtab>docattachments</selectedtab>
+      <media.libraryname>MVCWidgetPackages</media.libraryname>
+      <media.path>mvcwidgetpackages</media.path>
+      <media.sitename>KenticoMVCWidgetShowcase</media.sitename>
+      <media.viewmode>list</media.viewmode>
+      <selectedtab>libraries</selectedtab>
     </Data>
   </UserDialogsConfiguration>
   <UserFacebookID />

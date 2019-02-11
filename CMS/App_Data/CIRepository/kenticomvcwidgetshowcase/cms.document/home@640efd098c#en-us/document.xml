@@ -17,7 +17,7 @@
     <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
     <ObjectType>cms.user</ObjectType>
   </DocumentModifiedByUserID>
-  <DocumentModifiedWhen>2019-01-28 20:50:22Z</DocumentModifiedWhen>
+  <DocumentModifiedWhen>2019-02-11 14:46:23Z</DocumentModifiedWhen>
   <DocumentName>Home</DocumentName>
   <DocumentNodeID>
     <CodeName>/Home</CodeName>
@@ -30,7 +30,7 @@
     </Site>
   </DocumentNodeID>
   <DocumentPageBuilderWidgets>
-    <![CDATA[{"editableAreas":[{"identifier":"area1","sections":[{"identifier":"bbdfd0ae-c685-480d-b596-eef0ca744264","type":"Kentico.DefaultSection","zones":[{"identifier":"caa0e087-a01f-468f-ae1f-0cc72d2c5113","widgets":[]}]}]}]}]]>
+    <![CDATA[{"editableAreas":[{"identifier":"area1","sections":[{"identifier":"bbdfd0ae-c685-480d-b596-eef0ca744264","type":"Kentico.DefaultSection","zones":[{"identifier":"a8c157c2-c877-4f4f-b413-90e116203547","widgets":[{"identifier":"0cd37b33-be89-431c-836f-5cdb2d206ad0","type":"KenticoMVCWidgetShowcase.Widgets.MVCWidgetListWidget","variants":[{"identifier":"ee0e92a5-c5ad-4edc-a7cb-b754b7cd51cf","properties":{"headerText":null,"introText":null,"selectTopN":3,"showAllLink":false}}]},{"identifier":"30b79b3d-8db2-4b8e-a188-43a10cc4b1e3","type":"DancingGoat.General.TextWidget","variants":[{"identifier":"c6144b16-5208-4ffa-a0f3-a1acef033ca9","properties":{"text":"<p>This is some awesome text!</p>"}}]}]}]}]}]}]]>
   </DocumentPageBuilderWidgets>
   <DocumentPriority>0</DocumentPriority>
   <DocumentShowInSiteMap>True</DocumentShowInSiteMap>

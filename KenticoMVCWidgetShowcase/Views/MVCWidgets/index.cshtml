@@ -3,18 +3,20 @@
 @using Kentico.Web.Mvc
 
 @{
-    ViewBag.Title = "index";
+    ViewBag.Title = "MVC Widgets";
     Layout = "~/Views/Shared/_layout.cshtml";
 }
 
 <!-- Banner -->
-<section id="banner">
-    <div class="content">
-        <header>
-            <h1>
-                @Model.HeaderText
-            </h1>
-        </header>
-        <p>@Model.IntroText</p>
-    </div>
+<section>
+    <header class="main">
+        <h1>
+            @Model.HeaderText
+        </h1>
+    </header>
+    <p>@Model.IntroText</p>
+</section>
+
+<section>
+    @Html.Kentico().EditableArea("area1")
 </section>

@@ -65,6 +65,7 @@
           <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
           <controlname>TextAreaControl</controlname>
           <FilterMode>False</FilterMode>
+          <Rows>10</Rows>
           <Wrap>True</Wrap>
         </settings>
       </field>

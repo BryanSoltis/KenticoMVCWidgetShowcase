@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<documentfields.kenticomvcwidgetshowcase.mvcwidget>
+  <MVCWidgetAuthor>Bryan Soltis - Kentico</MVCWidgetAuthor>
+  <MVCWidgetDescription>
+<![CDATA[
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in nisl efficitur ante iaculis placerat pulvinar eget purus. Ut vitae nunc dui. Vestibulum maximus non nisl eget posuere. Duis id neque arcu. Integer diam tellus, hendrerit at magna varius, eleifend varius magna. Cras ac justo iaculis velit ullamcorper tincidunt. Ut porta tortor quis diam suscipit, quis sodales leo laoreet.
+
+Praesent sapien metus, rutrum eget blandit sed, volutpat et metus. Sed et ultricies est, id sollicitudin tortor. In bibendum risus odio, in viverra massa vulputate id. Ut urna velit, volutpat vitae diam at, tincidunt sollicitudin est. Ut porttitor nibh nunc, nec mattis ipsum faucibus id. Pellentesque feugiat nec orci ut congue. Donec tincidunt ante ut auctor pellentesque. Vestibulum sed turpis consequat dolor porta molestie nec a neque. Proin vitae porttitor dolor. In sed lacus id massa mollis suscipit nec et eros.
+]]>
+  </MVCWidgetDescription>
+  <MVCWidgetName>Text Widget</MVCWidgetName>
+  <MVCWidgetPackage>
+    <![CDATA[~/KenticoMVCWidgetShowcase/media/mvcwidgetpackages/TextWidget.zip?ext=.zip]]>
+  </MVCWidgetPackage>
+  <MVCWidgetReleaseDate>2019-02-07 06:00:00Z</MVCWidgetReleaseDate>
+  <MVCWidgetScreenshot>
+    <![CDATA[~/KenticoMVCWidgetShowcase/media/mvcwidgetpackages/TextWidgetScreenshot.png?ext=.png]]>
+  </MVCWidgetScreenshot>
+  <MVCWidgetShortDescription>Text area supporting basic formatting.</MVCWidgetShortDescription>
+</documentfields.kenticomvcwidgetshowcase.mvcwidget>

@@ -1,0 +1,43 @@
+﻿@using Kentico.Web.Mvc
+@using KenticoMVCWidgetShowcase.Models.Widgets.MVCWidgetListWidget
+
+@model MVCWidgetListWidgetViewModel
+
+@if (Model.HeaderText != null)
+{
+    <header class="major">
+        <h2> @Model.HeaderText</h2>
+    </header>
+}
+
+@if (Model.IntroText != null)
+{
+    <p>@Model.IntroText</p>
+}
+
+<div class="posts">
+    @foreach (var mvcwidget in Model.MVCWidgets)
+    {
+        string screenshoturl = Url.Kentico().ImageUrl(mvcwidget.MVCWidgetScreenshot, SizeConstraint.MaxWidthOrHeight(400));
+        <article>
+
+            <h3>@mvcwidget.MVCWidgetName</h3>
+            <a href="@Url.ForMVCWidget(mvcwidget)" class="image mvcwidgetscreenshot">
+                <img src="@screenshoturl" alt="@mvcwidget.MVCWidgetName" />
+            </a>
+            <p>@mvcwidget.MVCWidgetShortDescription</p>
+            <ul class="actions">
+                <li><a href="@Url.ForMVCWidget(mvcwidget)" class="button primary">Details</a></li>
+            </ul>
+        </article>
+    }
+</div>
+@if (Model.ShowAllLink)
+{
+    <hr />
+    <div>
+        <ul class="actions">
+            <li><a href="~/mvcwidgets" class="button">All MVC Widgets</a></li>
+        </ul>
+    </div>
+}

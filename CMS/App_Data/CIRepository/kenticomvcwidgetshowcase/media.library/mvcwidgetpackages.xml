@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<media.library>
+  <LibraryAccess>0</LibraryAccess>
+  <LibraryDescription>This library contains MVC Widget packages.</LibraryDescription>
+  <LibraryDisplayName>MVC Widget Packages</LibraryDisplayName>
+  <LibraryFolder>mvcwidgetpackages</LibraryFolder>
+  <LibraryGUID>af1ec84e-1b3e-4a07-af94-c64c6f5ec1e2</LibraryGUID>
+  <LibraryName>MVCWidgetPackages</LibraryName>
+  <LibrarySiteID>
+    <CodeName>KenticoMVCWidgetShowcase</CodeName>
+    <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </LibrarySiteID>
+</media.library>

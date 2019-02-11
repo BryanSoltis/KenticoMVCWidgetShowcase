@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>KenticoMVCWidgetShowcase</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>MVC Widget</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="MVCWidgetID" columntype="integer" guid="34d4fcdb-9eea-4cc7-90b4-28f97ce88f78" isPK="true" publicfield="false">
+        <properties>
+          <fieldcaption>MVCWidgetID</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>labelcontrol</controlname>
+        </settings>
+      </field>
+      <field column="MVCWidgetName" columnsize="200" columntype="text" guid="d271edba-3981-45b8-924f-72f4fcc5f6df" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>MVC Widget Name</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="MVCWidgetReleaseDate" columntype="date" guid="597f93db-6578-490c-bcd1-a00259cec45b" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>MVC Widget Release Date</fieldcaption>
+        </properties>
+        <settings>
+          <CheckRange>True</CheckRange>
+          <controlname>CalendarControl</controlname>
+          <DisplayNow>True</DisplayNow>
+          <EditTime>True</EditTime>
+          <TimeZoneType>inherit</TimeZoneType>
+        </settings>
+      </field>
+      <field column="MVCWidgetAuthor" columnsize="200" columntype="text" guid="223f802b-7c36-4482-8838-cf169fa240e6" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>MVC Widget Author</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="MVCWidgetShortDescription" columnsize="200" columntype="text" guid="7df0bc09-e3d0-431e-a064-26444ca3d301" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>MVC Widget Short Description</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field column="MVCWidgetDescription" columntype="longtext" guid="05844495-a369-40ca-aba5-ca8c5ba41193" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>MVC Widget Description</fieldcaption>
+        </properties>
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextAreaControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Rows>10</Rows>
+          <Wrap>True</Wrap>
+        </settings>
+      </field>
+      <field column="MVCWidgetScreenshot" columnsize="200" columntype="text" guid="8900f45e-59a1-4d40-a9d6-aedc8c6d1dfd" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>MVC Widget Screenshot</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>MediaSelectionControl</controlname>
+          <ShowPreview>True</ShowPreview>
+        </settings>
+      </field>
+      <field column="MVCWidgetPackage" columnsize="200" columntype="text" guid="21b49b74-c2ba-40af-b137-aa4df41637be" publicfield="false" visible="true">
+        <properties>
+          <fieldcaption>MVC Widget Package</fieldcaption>
+        </properties>
+        <settings>
+          <controlname>MediaSelectionControl</controlname>
+          <ShowPreview>True</ShowPreview>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>6d50dd53-d312-4503-9c80-e96fa42bab67</ClassGUID>
+  <ClassIconClass>icon-kentico</ClassIconClass>
+  <ClassInheritsFromClassID>0</ClassInheritsFromClassID>
+  <ClassIsContentOnly>True</ClassIsContentOnly>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsMenuItemType>False</ClassIsMenuItemType>
+  <ClassName>KenticoMVCWidgetShowcase.MVCWidget</ClassName>
+  <ClassNodeNameSource>MVCWidgetName</ClassNodeNameSource>
+  <ClassSearchContentColumn>DocumentContent</ClassSearchContentColumn>
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="019e6035-41ed-46c6-b05f-c0ec4e9f0e06" name="MVCWidgetDescription" searchable="False" tokenized="True" />
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="062a5b0e-a91b-4590-8918-f8d0900edc38" name="MVCWidgetID" searchable="True" tokenized="False" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="9b926b41-180f-4f42-a1c7-2d9022731bff" name="MVCWidgetName" searchable="False" tokenized="True" />
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="cca974b6-e8a0-4f43-aac9-c0798beece75" name="MVCWidgetReleaseDate" searchable="True" tokenized="False" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="ccbf5595-d385-4095-9ec2-fc17fecd4209" name="MVCWidgetAuthor" searchable="False" tokenized="True" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="ecc8628e-adb1-4b1c-864d-06b58eff2876" name="MVCWIdgetPackage" searchable="False" tokenized="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>KenticoMVCWidgetShowcase_MVCWidget</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

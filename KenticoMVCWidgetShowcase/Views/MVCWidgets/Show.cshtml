@@ -1,0 +1,44 @@
+﻿
+@model KenticoMVCWidgetShowcase.Models.MVCWidgets.MVCWidgetViewModel
+@{
+    ViewBag.Title = @Model.MVCWidgetName;
+    Layout = "~/Views/Shared/_layout.cshtml";
+
+    string screenshoturl = Url.Kentico().ImageUrl(Model.MVCWidgetScreenshot, SizeConstraint.MaxWidthOrHeight(400));
+    string packageurl = Url.Kentico().FileUrl(Model.MVCWidgetPackage, null);
+}
+<section>
+    <header class="main">
+        <h1>@Model.MVCWidgetName</h1>
+    </header>
+    <div class="row gtr-200">
+        <div class="col-6 col-12-medium">
+            <article>
+                <h3>Description</h3>
+                <p>@Model.MVCWidgetDescription</p>
+                <h3>Author</h3>
+                <p>@Model.MVCWidgetAuthor</p>
+                <h3>Release Date</h3>
+                <p>@Model.MVCWidgetReleaseDate.ToShortDateString()</p>
+                <p>
+                    <ul class="actions">
+                        <li><a href="@packageurl" class="button primary icon fa-download" alt="Download" target="_blank" download>Download</a></li>
+                    </ul>
+                </p>
+            </article>
+
+        </div>
+        <div class="col-6 col-12-medium">
+            <span class="image fit mvcwidgetscreenshot">
+                <img src="@screenshoturl" alt="@Model.MVCWidgetName" />
+            </span>
+        </div>
+    </div>
+</section>
+<section>
+    <div>
+        <ul class="actions">
+            <li><a href="~/mvcwidgets" class="button">All Widgets</a></li>
+        </ul>
+    </div>
+</section>

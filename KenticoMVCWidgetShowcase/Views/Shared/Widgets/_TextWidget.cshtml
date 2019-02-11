@@ -1,0 +1,17 @@
+﻿
+@using KenticoMVCWidgetShowcase.Models.InlineEditors
+@using KenticoMVCWidgetShowcase.Models.Widgets
+@model KenticoMVCWidgetShowcase.Models.Widgets.TextWidgetViewModel
+
+@if (Context.Kentico().PageBuilder().EditMode)
+{
+    Html.RenderPartial("InlineEditors/_TextEditor", new TextEditorViewModel
+    {
+        PropertyName = nameof(TextWidgetProperties.Text),
+        Text = Model.Text
+    });
+}
+else
+{
+    @Html.Raw(Model.Text);
+}

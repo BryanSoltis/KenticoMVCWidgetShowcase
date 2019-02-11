@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<media.file>
+  <FileCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileCreatedByUserID>
+  <FileCreatedWhen>2019-02-07 21:30:52Z</FileCreatedWhen>
+  <FileDescription />
+  <FileExtension>.png</FileExtension>
+  <FileGUID>712e9410-6677-48a5-8852-3fc992ab4f48</FileGUID>
+  <FileImageHeight>693</FileImageHeight>
+  <FileImageWidth>894</FileImageWidth>
+  <FileLibraryID>
+    <CodeName>MVCWidgetPackages</CodeName>
+    <GUID>af1ec84e-1b3e-4a07-af94-c64c6f5ec1e2</GUID>
+    <ObjectType>media.library</ObjectType>
+    <Site>
+      <CodeName>KenticoMVCWidgetShowcase</CodeName>
+      <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </FileLibraryID>
+  <FileMimeType>image/png</FileMimeType>
+  <FileModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileModifiedByUserID>
+  <FileName>MVCWidgetListScreenshot</FileName>
+  <FilePath>MVCWidgetListScreenshot.png</FilePath>
+  <FileSiteID>
+    <CodeName>KenticoMVCWidgetShowcase</CodeName>
+    <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </FileSiteID>
+  <FileSize>43246</FileSize>
+  <FileTitle />
+</media.file>

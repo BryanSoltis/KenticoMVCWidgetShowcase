@@ -1,1 +1,1 @@
-<%@ Application Codebehind="Global.asax.cs" Inherits="KenticoMVCWidgetShowcase.MvcApplication" Language="C#" %>
+<%@ Application Codebehind="Global.asax.cs" Inherits="KenticoMVCWidgetShowcase.KenticoMVCWidgetShowcaseApplication" Language="C#" %>

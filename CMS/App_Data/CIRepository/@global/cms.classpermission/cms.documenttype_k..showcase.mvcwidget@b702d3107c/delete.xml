@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.classpermission>
+  <ClassID>
+    <CodeName>KenticoMVCWidgetShowcase.MVCWidget</CodeName>
+    <GUID>6d50dd53-d312-4503-9c80-e96fa42bab67</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </ClassID>
+  <PermissionDescription>{$permissiondescription.document.delete$}</PermissionDescription>
+  <PermissionDisplayInMatrix>True</PermissionDisplayInMatrix>
+  <PermissionDisplayName>{$general.delete$}</PermissionDisplayName>
+  <PermissionGUID>7b78d18b-fab7-4dd1-8ad9-724daba1636a</PermissionGUID>
+  <PermissionName>Delete</PermissionName>
+  <PermissionOrder>5</PermissionOrder>
+</cms.classpermission>

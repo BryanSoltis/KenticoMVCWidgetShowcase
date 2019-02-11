@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a CI serialization file for /MVCWidgets/Text Widget -->
+<cms.documentlocalization>
+  <DocumentContent />
+  <DocumentCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentCreatedByUserID>
+  <DocumentCreatedWhen>2019-02-07 19:58:48Z</DocumentCreatedWhen>
+  <DocumentCulture>en-US</DocumentCulture>
+  <DocumentGUID>5cbddfa5-a7e7-4bdc-a692-41315918be95</DocumentGUID>
+  <DocumentInheritsStylesheet>True</DocumentInheritsStylesheet>
+  <DocumentMenuItemHideInNavigation>False</DocumentMenuItemHideInNavigation>
+  <DocumentModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </DocumentModifiedByUserID>
+  <DocumentModifiedWhen>2019-02-08 14:37:22Z</DocumentModifiedWhen>
+  <DocumentName>Text Widget</DocumentName>
+  <DocumentNodeID>
+    <CodeName>/MVCWidgets/Text-Widget</CodeName>
+    <GUID>df839342-50a9-4881-8b68-45136db3139a</GUID>
+    <ObjectType>cms.node</ObjectType>
+    <Site>
+      <CodeName>KenticoMVCWidgetShowcase</CodeName>
+      <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </DocumentNodeID>
+  <DocumentPriority>0</DocumentPriority>
+  <DocumentShowInSiteMap>True</DocumentShowInSiteMap>
+  <DocumentUrlPath />
+  <DocumentUseNamePathForUrlPath>False</DocumentUseNamePathForUrlPath>
+  <DocumentWildcardRule />
+</cms.documentlocalization>

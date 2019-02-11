@@ -5,7 +5,7 @@ using System.Web.Routing;
 
 namespace KenticoMVCWidgetShowcase
 {
-    public class MvcApplication : System.Web.HttpApplication
+    public class KenticoMVCWidgetShowcaseApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
         {

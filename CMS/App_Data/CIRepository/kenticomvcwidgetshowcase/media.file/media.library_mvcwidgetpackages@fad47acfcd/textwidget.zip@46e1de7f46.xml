@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<media.file>
+  <FileCreatedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileCreatedByUserID>
+  <FileCreatedWhen>2019-02-08 12:54:34Z</FileCreatedWhen>
+  <FileDescription />
+  <FileExtension>.zip</FileExtension>
+  <FileGUID>df48166b-352a-48df-a13f-fc692a1dc91f</FileGUID>
+  <FileLibraryID>
+    <CodeName>MVCWidgetPackages</CodeName>
+    <GUID>af1ec84e-1b3e-4a07-af94-c64c6f5ec1e2</GUID>
+    <ObjectType>media.library</ObjectType>
+    <Site>
+      <CodeName>KenticoMVCWidgetShowcase</CodeName>
+      <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+      <ObjectType>cms.site</ObjectType>
+    </Site>
+  </FileLibraryID>
+  <FileMimeType>application/zip</FileMimeType>
+  <FileModifiedByUserID>
+    <CodeName>administrator</CodeName>
+    <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
+    <ObjectType>cms.user</ObjectType>
+  </FileModifiedByUserID>
+  <FileName>TextWidget</FileName>
+  <FilePath>TextWidget.zip</FilePath>
+  <FileSiteID>
+    <CodeName>KenticoMVCWidgetShowcase</CodeName>
+    <GUID>1c9dcb16-0cc5-4ce4-ae8d-a052adf8a83d</GUID>
+    <ObjectType>cms.site</ObjectType>
+  </FileSiteID>
+  <FileSize>37206</FileSize>
+  <FileTitle />
+</media.file>

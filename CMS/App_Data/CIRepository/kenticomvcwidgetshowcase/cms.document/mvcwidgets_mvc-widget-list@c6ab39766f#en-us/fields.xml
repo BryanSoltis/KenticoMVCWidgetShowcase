@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<documentfields.kenticomvcwidgetshowcase.mvcwidget>
+  <MVCWidgetAuthor>Bryan Soltis - Kentico</MVCWidgetAuthor>
+  <MVCWidgetDescription>
+    <![CDATA[Morbi sagittis tellus dolor, eu venenatis dui rutrum ac. Phasellus tellus urna, accumsan ac massa in, dictum porttitor nibh. Ut in felis vestibulum, aliquet urna sit amet, rhoncus elit. Donec id imperdiet metus. Quisque auctor erat id neque malesuada, vel consequat lacus venenatis. Maecenas aliquam hendrerit tellus sollicitudin luctus. Duis vel ante nec eros egestas fringilla a sit amet enim. Sed non malesuada diam. Nullam nec diam semper, egestas urna sed, condimentum eros. Aliquam vel lectus varius, mattis velit et, rutrum sapien. Vivamus arcu lacus, ornare ac ultrices egestas, dapibus sed lorem. Morbi commodo vitae velit non mollis. Morbi non accumsan augue. Mauris faucibus ut erat sed mattis.]]>
+  </MVCWidgetDescription>
+  <MVCWidgetName>MVC Widget List</MVCWidgetName>
+  <MVCWidgetPackage>
+    <![CDATA[~/KenticoMVCWidgetShowcase/media/mvcwidgetpackages/MVCWidgetListWidget.zip?ext=.zip]]>
+  </MVCWidgetPackage>
+  <MVCWidgetReleaseDate>2019-02-04 06:00:00Z</MVCWidgetReleaseDate>
+  <MVCWidgetScreenshot>
+    <![CDATA[~/KenticoMVCWidgetShowcase/media/mvcwidgetpackages/MVCWidgetListScreenshot.png?ext=.png]]>
+  </MVCWidgetScreenshot>
+  <MVCWidgetShortDescription>This widget displays a list of MVC widgets. </MVCWidgetShortDescription>
+</documentfields.kenticomvcwidgetshowcase.mvcwidget>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.classpermission>
+  <ClassID>
+    <CodeName>KenticoMVCWidgetShowcase.MVCWidget</CodeName>
+    <GUID>6d50dd53-d312-4503-9c80-e96fa42bab67</GUID>
+    <ObjectType>cms.documenttype</ObjectType>
+  </ClassID>
+  <PermissionDescription>{$permissiondescription.document.read$}</PermissionDescription>
+  <PermissionDisplayInMatrix>True</PermissionDisplayInMatrix>
+  <PermissionDisplayName>{$permissionnames.read$}</PermissionDisplayName>
+  <PermissionGUID>8131fbda-06ce-4e32-8484-a5d0e74a9e65</PermissionGUID>
+  <PermissionName>Read</PermissionName>
+  <PermissionOrder>1</PermissionOrder>
+</cms.classpermission>
