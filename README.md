@@ -32,12 +32,12 @@ Topics covered include:
 administrator/[BLANK PASSWORD]
 
 **Prerequisites**
-- Visual Sutdio 2017
+- Visual Studio 2017
 - Access to SQL server
 
-**Continuos Integration**
+**Continuous Integration**
 
-This project has Continuos Integration enabled. You will use the **ContinuousIntegration.exe** utility to restore data to your local database.
+This project has Continuous Integration enabled. You will use the **ContinuousIntegration.exe** utility to restore data to your local database.
 
 **Connection String**
 
@@ -49,7 +49,7 @@ The original project's Connection Strings have been encrypted. You will need to 
 ### CMS App
 1. Download/clone the repository to you local machine and unzip (if needed).
 
-2. Open the **[PROJECTFOLDER]\WebApp.sln** in Visual Studio.
+2. Open the **[ProjectName]/WebApp.sln** in Visual Studio.
 
 3. Update Web settings (IIS) to your preferred path. The article uses http://localhost/KenticoMVCWidgetShowcaseAdmin as the URL.
 
@@ -71,14 +71,14 @@ The original project's Connection Strings have been encrypted. You will need to 
 9. On **Step 4**, add your license for your development environment.
 10. On **Step 5**, select **Create a new site or import an existing Kentico site** to bypass automatic site creation.
 11. Once the process is complete, you should be directed to the **Sites** module. 
-12. Click on the **Home** icon to exit to the Application Dashboard.
+12. Click on the **Home** icon to exit to the **Application Dashboard**.
 13. Open a Command Prompt in the **[ProjectName]/CMS/bin** folder and run **ContinuousIntegration.exe -r**.
 
     **MORE INFO**
 
     https://docs.kentico.com/k12/developing-websites/setting-up-continuous-integration/restoring-continuous-integration-files-to-the-database
 
-    *If you receive an error about loading an assembly from a network location, you may need to modify the **CMS/bin/ContinuousIntegration.exe.config** file to allow remote sources.*
+    *If you receive an error about loading an assembly from a network location, you may need to modify the **[ProjectName]CMS/bin/ContinuousIntegration.exe.config** file to allow remote sources.*
 
     ```
     <runtime>
@@ -95,8 +95,9 @@ The original project's Connection Strings have been encrypted. You will need to 
 
 15. In the **Sites** application, select the **KenticoMVCWidgetShowcase** site and update the **Presentation URL** with your local path you will use for the MVC site.
 
-   **NOTE**
-   This value will be the same url as your MVC site.
+    **NOTE**
+
+    This value will be the same url as your MVC site.
 
 16. Start the  site in the **Sites** application.
 
