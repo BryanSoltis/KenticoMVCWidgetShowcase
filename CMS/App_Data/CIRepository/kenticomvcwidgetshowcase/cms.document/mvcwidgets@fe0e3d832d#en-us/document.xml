@@ -17,7 +17,7 @@
     <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
     <ObjectType>cms.user</ObjectType>
   </DocumentModifiedByUserID>
-  <DocumentModifiedWhen>2019-02-05 21:13:02Z</DocumentModifiedWhen>
+  <DocumentModifiedWhen>2019-02-12 17:37:56Z</DocumentModifiedWhen>
   <DocumentName>MVCWidgets</DocumentName>
   <DocumentNodeID>
     <CodeName>/MVCWidgets</CodeName>
@@ -30,7 +30,7 @@
     </Site>
   </DocumentNodeID>
   <DocumentPageBuilderWidgets>
-    <![CDATA[{"editableAreas":[{"identifier":"area1","sections":[{"identifier":"03e1bf8e-322a-40ee-b738-c57de474c612","type":"Kentico.DefaultSection","zones":[{"identifier":"feab2eb1-2721-4ca3-9d2b-f41881ddb3a5","widgets":[{"identifier":"7d86cbc2-3ca2-400a-916e-bca36b8e7211","type":"KenticoMVCWidgetShowcase.Widgets.MVCWidgetListWidget","variants":[{"identifier":"eb2203ce-4a1b-4706-aa1c-7cd0e5ffab20","properties":{"headerText":null,"introText":null,"selectTopN":3,"showAllLink":false}}]}]}]}]}]}]]>
+    <![CDATA[{"editableAreas":[{"identifier":"area1","sections":[{"identifier":"03e1bf8e-322a-40ee-b738-c57de474c612","type":"Kentico.DefaultSection","zones":[{"identifier":"feab2eb1-2721-4ca3-9d2b-f41881ddb3a5","widgets":[{"identifier":"7d86cbc2-3ca2-400a-916e-bca36b8e7211","type":"KenticoMVCWidgetShowcase.Widgets.MVCWidgetListWidget","variants":[{"identifier":"eb2203ce-4a1b-4706-aa1c-7cd0e5ffab20","properties":{"headerText":null,"introText":null,"selectTopN":0,"showAllLink":false}}]}]}]}]}]}]]>
   </DocumentPageBuilderWidgets>
   <DocumentPriority>0</DocumentPriority>
   <DocumentShowInSiteMap>True</DocumentShowInSiteMap>

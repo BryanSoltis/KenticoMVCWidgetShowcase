@@ -17,7 +17,7 @@
     <GUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</GUID>
     <ObjectType>cms.user</ObjectType>
   </DocumentModifiedByUserID>
-  <DocumentModifiedWhen>2019-02-11 14:46:23Z</DocumentModifiedWhen>
+  <DocumentModifiedWhen>2019-02-12 17:50:23Z</DocumentModifiedWhen>
   <DocumentName>Home</DocumentName>
   <DocumentNodeID>
     <CodeName>/Home</CodeName>
@@ -30,7 +30,7 @@
     </Site>
   </DocumentNodeID>
   <DocumentPageBuilderWidgets>
-    <![CDATA[{"editableAreas":[{"identifier":"area1","sections":[{"identifier":"bbdfd0ae-c685-480d-b596-eef0ca744264","type":"Kentico.DefaultSection","zones":[{"identifier":"a8c157c2-c877-4f4f-b413-90e116203547","widgets":[{"identifier":"0cd37b33-be89-431c-836f-5cdb2d206ad0","type":"KenticoMVCWidgetShowcase.Widgets.MVCWidgetListWidget","variants":[{"identifier":"ee0e92a5-c5ad-4edc-a7cb-b754b7cd51cf","properties":{"headerText":null,"introText":null,"selectTopN":3,"showAllLink":false}}]},{"identifier":"30b79b3d-8db2-4b8e-a188-43a10cc4b1e3","type":"DancingGoat.General.TextWidget","variants":[{"identifier":"c6144b16-5208-4ffa-a0f3-a1acef033ca9","properties":{"text":"<p>This is some awesome text!</p>"}}]}]}]}]}]}]]>
+    <![CDATA[{"editableAreas":[{"identifier":"area1","sections":[{"identifier":"bbdfd0ae-c685-480d-b596-eef0ca744264","type":"Kentico.DefaultSection","zones":[{"identifier":"a8c157c2-c877-4f4f-b413-90e116203547","widgets":[{"identifier":"b7b736f2-1539-47b3-ac39-0a3b19094b89","type":"KenticoMVCWidgetShowcase.Widgets.MVCWidgetListWidget","variants":[{"identifier":"53035549-ebe7-419e-ba3e-dfe0869d587b","properties":{"headerText":"Latest Widgets","introText":"Here are the latest MVC widgets.","selectTopN":2,"showAllLink":true}}]},{"identifier":"10f01925-9346-4abe-a6e1-10153f67dd2e","type":"DancingGoat.General.TextWidget","variants":[{"identifier":"9f1c87a0-20c6-4eac-8a62-915612e98903","properties":{"text":"<p>This is some sample text!</p>"}}]}]}]}]}]}]]>
   </DocumentPageBuilderWidgets>
   <DocumentPriority>0</DocumentPriority>
   <DocumentShowInSiteMap>True</DocumentShowInSiteMap>
