@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <cms.usersettings>
   <UserAccountLockReason>0</UserAccountLockReason>
-  <UserActivationDate>2019-01-16 20:45:41Z</UserActivationDate>
+  <UserActivationDate>2019-01-16 13:45:41Z</UserActivationDate>
   <UserDialogsConfiguration>
     <Data>
       <attachments.viewmode>list</attachments.viewmode>
@@ -16,7 +16,7 @@
   <UserInvalidLogOnAttempts>0</UserInvalidLogOnAttempts>
   <UserLogActivities>False</UserLogActivities>
   <UserNickName />
-  <UserPasswordLastChanged>2019-01-16 20:45:41Z</UserPasswordLastChanged>
+  <UserPasswordLastChanged>2019-01-16 13:45:41Z</UserPasswordLastChanged>
   <UserPreferences />
   <UserRegistrationInfo />
   <UserSettingsUserGUID>6415b8ce-8072-4bcd-8e48-9d7178b826b7</UserSettingsUserGUID>
