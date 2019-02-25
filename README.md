@@ -16,11 +16,11 @@ Topics covered include:
 
 **Admin Site - Part 3**
 
-![Admin Site - Part 2](https://www.kentico.com/getattachment/532d88d5-3719-45b1-ae56-8711ad44f2b0/Demo4.png?lang=en-US&width=700&height=478)
+![Admin Site - Part 3](https://www.kentico.com/getattachment/Blog/2019-02/Creating-an-MVC-Widget-Showcase-Site-with-Kent-(1)/Testing2.png?lang=en-US&width=700&height=468)
 
 **MVC Site - Part 3**
 
-![MVC Site - Part 2](https://www.kentico.com/getattachment/2ebad391-3495-40fe-b4ef-32698d590b40/Demo1.png?lang=en-US&width=700&height=477)
+![MVC Site - Part 3](https://www.kentico.com/getattachment/Blog/2019-02/Creating-an-MVC-Widget-Showcase-Site-with-Kent-(1)/SiteDemo.gif?lang=en-US)
 
 
 ## PROJECT DETAILS
