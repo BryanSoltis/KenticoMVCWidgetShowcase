@@ -1,5 +1,7 @@
 using Kentico.Web.Mvc;
 using KenticoMVCWidgetShowcase.App_Start;
+using KenticoMVCWidgetShowcase.LightInject;
+using KenticoMVCWidgetShowcase.LightInject.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
@@ -9,6 +11,9 @@ namespace KenticoMVCWidgetShowcase
     {
         protected void Application_Start()
         {
+            // Register LightInject configuration
+            LightInjectConfig.Register();
+
             // Enables and configures selected Kentico ASP.NET MVC integration features
             ApplicationConfig.RegisterFeatures(ApplicationBuilder.Current);
 

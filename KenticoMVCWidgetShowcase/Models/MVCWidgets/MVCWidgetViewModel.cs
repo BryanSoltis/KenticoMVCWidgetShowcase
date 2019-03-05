@@ -1,21 +1,16 @@
 ﻿using CMS.DocumentEngine.Types.KenticoMVCWidgetShowcase;
-using CMS.MediaLibrary;
-using Kentico.Content.Web.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace KenticoMVCWidgetShowcase.Models.MVCWidgets
 {
     public class MVCWidgetViewModel
     {
         public string MVCWidgetName { get; set; }
-        
+
         public DateTime MVCWidgetReleaseDate { get; set; }
-        
+
         public string MVCWidgetAuthor { get; set; }
-        
+
         public string MVCWidgetDescription { get; set; }
 
         public string MVCWidgetScreenshot { get; set; }

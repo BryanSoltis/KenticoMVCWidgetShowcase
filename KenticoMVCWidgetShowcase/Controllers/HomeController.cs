@@ -1,6 +1,9 @@
 ﻿using CMS.DocumentEngine.Types.KenticoMVCWidgetShowcase;
+using CMS.SiteProvider;
 using Kentico.PageBuilder.Web.Mvc;
 using Kentico.Web.Mvc;
+using KenticoMVCWidgetShowcase.Models;
+using KenticoMVCWidgetShowcase.Services;
 using System.Web.Mvc;
 
 namespace KenticoMVCWidgetShowcase.Controllers
@@ -10,19 +13,18 @@ namespace KenticoMVCWidgetShowcase.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            // Gets the latest version of a single article using the generated provider
-            HomePage page = HomePageProvider.GetHomePage("/home", "en-us", "KenticoMVCWidgetShowcase");
+            HomePageViewModel vm = HomePageService.GetHomePage();
 
             // Returns a 404 error when the retrieving is unsuccessful
-            if (page == null)
+            if (vm.PageInfo == null)
             {
                 return HttpNotFound();
             }
 
             // Initializes the page builder with the DocumentID of the page
-            HttpContext.Kentico().PageBuilder().Initialize(page.DocumentID);
+            HttpContext.Kentico().PageBuilder().Initialize(vm.PageInfo.DocumentID);
 
-            return View(page);
+            return View(vm);
         }
     }
 }

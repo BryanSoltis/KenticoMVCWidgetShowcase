@@ -1,4 +1,4 @@
-﻿@model CMS.DocumentEngine.Types.KenticoMVCWidgetShowcase.MVCWidgetsPage
+﻿@model KenticoMVCWidgetShowcase.Models.MVCWidgetsPageViewModel
 @using Kentico.PageBuilder.Web.Mvc
 @using Kentico.Web.Mvc
 
@@ -11,10 +11,10 @@
 <section>
     <header class="main">
         <h1>
-            @Model.HeaderText
+            @Model.PageInfo.HeaderText
         </h1>
     </header>
-    <p>@Model.IntroText</p>
+    <p>@Model.PageInfo.IntroText</p>
 </section>
 
 <section>

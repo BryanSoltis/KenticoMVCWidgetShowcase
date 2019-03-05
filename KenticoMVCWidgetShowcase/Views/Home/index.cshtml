@@ -1,4 +1,4 @@
-﻿@model CMS.DocumentEngine.Types.KenticoMVCWidgetShowcase.HomePage
+﻿@model KenticoMVCWidgetShowcase.Models.HomePageViewModel
 @using Kentico.PageBuilder.Web.Mvc
 @using Kentico.Web.Mvc
 
@@ -13,17 +13,17 @@
     <div class="content">
         <header>
             <h1>
-                @Model.HeaderText
+                @Model.PageInfo.HeaderText
             </h1>
-            <p>@Model.SubheaderText</p>
+            <p>@Model.PageInfo.SubheaderText</p>
         </header>
-        <p>@Model.IntroText</p>
+        <p>@Model.PageInfo.IntroText</p>
     </div>
-    @if (Model.HeaderImage.ToString() != "")
+    @if (Model.PageInfo.HeaderImage.ToString() != "")
     {
-        string headerimageurl = Url.Kentico().ImageUrl(Model.HeaderImage, SizeConstraint.MaxWidthOrHeight(400));
+        string headerimageurl = Url.Kentico().ImageUrl(Model.PageInfo.HeaderImage, SizeConstraint.MaxWidthOrHeight(400));
         <span class="image object">
-            <img src="@headerimageurl" alt="@Model.HeaderText" />
+            <img src="@headerimageurl" alt="@Model.PageInfo.HeaderText" />
         </span>
     }
 </section>

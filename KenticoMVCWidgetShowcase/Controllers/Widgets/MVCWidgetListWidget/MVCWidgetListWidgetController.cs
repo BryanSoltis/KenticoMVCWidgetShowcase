@@ -4,6 +4,7 @@ using CMS.SiteProvider;
 using Kentico.PageBuilder.Web.Mvc;
 using KenticoMVCWidgetShowcase.Controllers.Widgets;
 using KenticoMVCWidgetShowcase.Models.Widgets.MVCWidgetListWidget;
+using KenticoMVCWidgetShowcase.Services;
 using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
@@ -44,12 +45,7 @@ namespace KenticoMVCWidgetShowcase.Controllers.Widgets
                 var properties = GetProperties();
 
                 // Get the collection of MVC Widgets
-                IEnumerable<MVCWidget> mvcwidgets = MVCWidgetProvider.GetMVCWidgets()
-                    .OnSite(siteName)
-                    .Culture(culture)
-                    .TopN(properties.SelectTopN)
-                    .OrderByDescending("DocumentPublishFrom")
-                    .TypedResult; // Ensures that the result of the query is saved, not the query itself
+                IEnumerable<MVCWidget> mvcwidgets = MVCWidgetService.GetMVCWidgets(properties.SelectTopN);                     
 
                 // Creates a new model and sets its value
                 var model = new MVCWidgetListWidgetViewModel
