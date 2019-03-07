@@ -34,11 +34,10 @@
 
 namespace KenticoMVCWidgetShowcase.LightInject.Mvc
 {
+    using KenticoMVCWidgetShowcase.LightInject.Web;
     using System.Linq;
     using System.Reflection;
     using System.Web.Mvc;
-    using KenticoMVCWidgetShowcase.LightInject.Web;
-    using Mvc;
 
     /// <summary>
     /// Extends the <see cref="IServiceContainer"/> interface with a method that 
@@ -46,14 +45,14 @@ namespace KenticoMVCWidgetShowcase.LightInject.Mvc
     /// </summary>
     [System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage]
     internal static class MvcContainerExtensions
-    {        
+    {
         /// <summary>
         /// Registers all <see cref="Controller"/> implementations found in the given <paramref name="assemblies"/>.
         /// </summary>
         /// <param name="serviceRegistry">The target <see cref="IServiceRegistry"/>.</param>
         /// <param name="assemblies">A list of assemblies from which to register <see cref="Controller"/> implementations.</param>
         public static void RegisterControllers(this IServiceRegistry serviceRegistry, params Assembly[] assemblies)
-        {                                    
+        {
             foreach (var assembly in assemblies)
             {
                 var controllerTypes =
@@ -61,7 +60,7 @@ namespace KenticoMVCWidgetShowcase.LightInject.Mvc
                 foreach (var controllerType in controllerTypes)
                 {
                     serviceRegistry.Register(controllerType, new PerRequestLifeTime());
-                }                
+                }
             }
         }
 
@@ -71,7 +70,7 @@ namespace KenticoMVCWidgetShowcase.LightInject.Mvc
         /// <param name="serviceRegistry">The target <see cref="IServiceRegistry"/>.</param>
         public static void RegisterControllers(this IServiceRegistry serviceRegistry)
         {
-            RegisterControllers(serviceRegistry, Assembly.GetCallingAssembly());            
+            RegisterControllers(serviceRegistry, Assembly.GetCallingAssembly());
         }
 
         /// <summary>
@@ -111,11 +110,11 @@ namespace KenticoMVCWidgetShowcase.LightInject.Mvc
 
 namespace KenticoMVCWidgetShowcase.LightInject.Mvc
 {
-    using System;    
+    using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Web.Mvc;
-    
+
     /// <summary>
     /// An <see cref="IDependencyResolver"/> adapter for the LightInject service container.
     /// </summary>
@@ -192,10 +191,10 @@ namespace KenticoMVCWidgetShowcase.LightInject.Mvc
             var filters = base.GetFilters(controllerContext, actionDescriptor).ToArray();
             foreach (var filter in filters)
             {
-                serviceContainer.InjectProperties(filter.Instance);                
+                serviceContainer.InjectProperties(filter.Instance);
             }
 
             return filters;
-        }                
+        }
     }
 }

@@ -4,6 +4,7 @@ using CMS.SiteProvider;
 using Kentico.PageBuilder.Web.Mvc;
 using KenticoMVCWidgetShowcase.Controllers.Widgets;
 using KenticoMVCWidgetShowcase.Models.Widgets.MVCWidgetListWidget;
+using KenticoMVCWidgetShowcase.Repositories;
 using KenticoMVCWidgetShowcase.Services;
 using System;
 using System.Collections.Generic;
@@ -16,11 +17,14 @@ namespace KenticoMVCWidgetShowcase.Controllers.Widgets
 {
     public class MVCWidgetListWidgetController : WidgetController<MVCWidgetListWidgetProperties>
     {
+        private readonly IMVCWidgetRepository _repository;
+
         /// <summary>
         /// Creates an instance of <see cref="MVCWidgetListWidgetController"/> class.
         /// </summary>
-        public MVCWidgetListWidgetController()
+       public MVCWidgetListWidgetController(IMVCWidgetRepository repository)
         {
+            this._repository = repository;
         }
 
         /// <summary>
@@ -38,14 +42,13 @@ namespace KenticoMVCWidgetShowcase.Controllers.Widgets
         {
             try
             {
-                string culture = "en-us";
                 string siteName = SiteContext.CurrentSiteName;
 
                 // Retrieves the properties as a strongly typed object
                 var properties = GetProperties();
 
                 // Get the collection of MVC Widgets
-                IEnumerable<MVCWidget> mvcwidgets = MVCWidgetService.GetMVCWidgets(properties.SelectTopN);                     
+                IEnumerable<MVCWidget> mvcwidgets = _repository.GetMVCWidgets(properties.SelectTopN);
 
                 // Creates a new model and sets its value
                 var model = new MVCWidgetListWidgetViewModel

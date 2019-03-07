@@ -10,10 +10,17 @@ namespace KenticoMVCWidgetShowcase.Controllers
 {
     public class HomeController : Controller
     {
+        private HomePageService _service;
+
+        public HomeController(HomePageService service)
+        {
+            this._service = service;
+        }
+
         // GET: Home
         public ActionResult Index()
         {
-            HomePageViewModel vm = HomePageService.GetHomePage();
+            HomePageViewModel vm = _service.GetHomePage();
 
             // Returns a 404 error when the retrieving is unsuccessful
             if (vm.PageInfo == null)
