@@ -1,11 +1,31 @@
-# KenticoMVCWidgetShowcase
+# Kentico MVC Widget Showcase
 
 ## OVERVIEW
-This project details creating a sample MVC site using Kentico 12.
+This project details creating a sample MVC site using Kentico 12, as documented in the article series below. This site will be continually updated with new functionality as new articles are published. Each branch of the repository corresponds to the matching article. 
+
+## ASSOCIATED ARTICLE
+This branch aligns with the following article: 
+
+https://www.kentico.com/blog/creating-an-mvc-widget-showcase-site-with-kentico-ems-and-mvc-custom-widgets-and-inline-editors
+
+Topics covered include:
+- Adding DI
+- Adding View Models
+- Adding Caching
+- Adding Repositories
+
+**Admin Site - Part 4**
+
+![Admin Site - Part 4](https://www.kentico.com/getattachment/Blog/2019-02/Creating-an-MVC-Widget-Showcase-Site-with-Kent-(1)/Testing2.png?lang=en-US&width=700&height=468)
+
+**MVC Site - Part 4**
+
+![MVC Site - Part 4](https://www.kentico.com/getattachment/Blog/2019-02/Creating-an-MVC-Widget-Showcase-Site-with-Kent-(1)/SiteDemo.gif?lang=en-US)
+
 
 ## PROJECT DETAILS
 
-**Kentico Version**: 12.0.5
+**Kentico Version**: 12.0.12
 
 **Username/Password**: administrator/[BLANK PASSWORD]
 
